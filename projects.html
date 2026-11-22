@@ -1,0 +1,59 @@
+---
+title: Projects
+permalink: /projects/
+lead: Over 20 years of participation in EU-funded research projects in the areas of ICT, security and robotics.
+---
+{% assign pending = site.data.projects | where: "status", "pending" %}
+{% assign ongoing = site.data.projects | where: "status", "ongoing" %}
+{% assign past = site.data.projects | where: "status", "past" %}
+
+<h2>Ongoing</h2>
+<div class="card-grid project-grid">
+  {% for pr in ongoing %}
+  <article class="card project">
+    <div class="project-logo">{% if pr.logo %}<img src="{{ pr.logo | relative_url }}" alt="{{ pr.acronym }} logo" loading="lazy">{% endif %}</div>
+    <h3>{% if pr.url %}<a href="{{ pr.url }}">{{ pr.acronym }}</a>{% else %}{{ pr.acronym }}{% endif %}</h3>
+    <p class="project-title">{{ pr.title }}</p>
+    <div class="project-meta">
+      <div><span class="pm-l">Programme</span><span class="pm-prog">{{ pr.programme }}</span></div>
+      <div class="pm-row">
+        <div><span class="pm-l">Duration</span>{{ pr.start }}–{{ pr.end }}</div>
+        <div><span class="pm-l">Role</span>{{ pr.role }}</div>
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+
+{% if pending.size > 0 %}
+<h2>Pending</h2>
+<div class="card-grid">
+  {% for pr in pending %}
+  <article class="card project">
+    <h3>{{ pr.acronym }}</h3><p class="project-title">{{ pr.title }}</p>
+    <div class="project-meta">
+      <div><span class="pm-l">Programme</span><span class="pm-prog">{{ pr.programme }}</span></div>
+      <div><span class="pm-l">Role</span>{{ pr.role }}</div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
+{% endif %}
+
+<h2>Past</h2>
+<div class="table-wrap">
+<table class="project-table">
+  <thead><tr><th>Years</th><th>Project</th><th>Programme</th><th>Role</th></tr></thead>
+  <tbody>
+  {% for pr in past %}
+    <tr>
+      <td class="nowrap">{{ pr.start }}–{{ pr.end }}</td>
+      <td><div class="pt-proj"><span class="pt-logo">{% if pr.table_logo %}<img src="{{ pr.table_logo | relative_url }}" alt="" loading="lazy" width="72" height="36">{% endif %}</span>
+        <span><strong>{% if pr.url %}<a href="{{ pr.url }}">{{ pr.acronym }}</a>{% else %}{{ pr.acronym }}{% endif %}</strong><span class="pt-title">{{ pr.title }}</span></span></div></td>
+      <td class="nowrap">{{ pr.programme }}</td>
+      <td>{{ pr.role }}</td>
+    </tr>
+  {% endfor %}
+  </tbody>
+</table>
+</div>

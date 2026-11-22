@@ -1,0 +1,257 @@
+# Research projects (rendered on /projects/; ongoing ones also on the home page).
+# status: pending | ongoing | past     start/end: project duration (years)
+# Fields: acronym, title, short (one-line description shown on the home page), status, start, end, programme (framework / topic), role, url, logo,
+#         table_logo (small trimmed logo for the Past table, made by tools/table_logos.py; 5G-EPICENTRE has none: its old logo was 5G-MEDIA's;
+#         FP6/FP7/GSRT-only projects have none, since those are programme logos)
+
+- acronym: SALUS
+  title: Strengthening law enforcement with advanced IoT forensic tools and enriched investigation schemes, realised by a Software Defined Network Security-as-a-Service architecture
+  short: Advanced IoT forensic tools for law enforcement
+  status: ongoing
+  start: 2025
+  end: 2028
+  programme: HORIZON-CL3-2024-FCT-01-01
+  role: Senior researcher, Scientific responsible
+  url: https://salus-project.eu/
+  logo: /assets/img/projects/salus-even.png
+- acronym: TORNADO
+  title: Foundation models for robots that handle small, soft and deformable objects
+  short: Foundation models for robots handling soft and deformable objects
+  status: ongoing
+  start: 2025
+  end: 2028
+  programme: HORIZON-CL4-2024-DIGITAL-EMERGING-01
+  role: Deputy Coordinator
+  url: https://tornado-horizon.eu/
+  logo: /assets/img/projects/tornado-even.png
+- acronym: TRIFFID
+  title: Autonomous robotic aid for increasing first responders efficiency
+  short: Autonomous robotic aid for first responders
+  status: ongoing
+  start: 2024
+  end: 2027
+  programme: HORIZON-CL3-2023-DRS-01
+  role: Coordinator
+  url: https://triffid-project.eu/
+  logo: /assets/img/projects/triffid-even.png
+- acronym: ARMADILLO
+  title: Accurate, reliable, portable and rapid methods and technologies for detection of GHB substances and prevention against different forms of violence and assault supported by these drugs
+  short: Rapid detection of GHB substances and prevention of related violence
+  status: ongoing
+  start: 2024
+  end: 2027
+  programme: HORIZON-CL3-2023-FCT-01
+  role: Senior researcher, Scientific responsible
+  url: https://armadillo-project.eu
+  logo: /assets/img/projects/armadillo-even.png
+- acronym: GANNDALF
+  title: A ground-breaking collaboration framework realizing the next era of cybercrime detection and multistakeholder investigation for LEAs, judicial ecosystems, and citizens
+  short: Next-generation EU investigation framework against cyber-dependent crime
+  status: ongoing
+  start: 2024
+  end: 2027
+  programme: HORIZON-CL3-2023-FCT-01
+  role: Senior researcher, Scientific responsible
+  url: https://ganndalf-project.eu/
+  logo: /assets/img/projects/ganndalf-even.png
+- acronym: Ceasefire
+  title: Advanced versatile artificial intelligence technologies and interconnected cross-sectoral fully-operational national focal points for combating illicit firearms trafficking
+  status: past
+  start: 2022
+  end: 2025
+  programme: HEU-FCT-IA
+  role: Technical manager, Scientific responsible
+  url: https://ceasefire-project.eu/
+  logo: /assets/img/projects/Ceasefire-Publications.png
+  table_logo: /assets/img/projects/table/ceasefire-publications.png
+- acronym: ONELAB
+  title: Orchestrating next-generation mobile modular laboratories for pandemic monitoring preparedness
+  status: past
+  start: 2022
+  end: 2025
+  programme: HEU-DRS-IA
+  role: Senior researcher, Scientific responsible
+  url: https://onelab-project.eu/
+  logo: /assets/img/projects/ONELAB-Publications-1024x683.png
+  table_logo: /assets/img/projects/table/onelab-publications-1024x683.png
+- acronym: KLEPTOTRACE
+  title: Strengthening EU asset recovery and sanction tracing against transnational high-level corruption
+  status: past
+  start: 2023
+  end: 2025
+  programme: ISF-AG-CORRUPT
+  role: Senior researcher, Scientific responsible
+  url: https://transcrime.it/kleptotrace/
+  logo: /assets/img/projects/KLEPTOTRACE-Projects.png
+  table_logo: /assets/img/projects/table/kleptotrace-projects.png
+- acronym: TENSOR
+  title: Reliable biometric technologies to assist police authorities in combating terrorism and organized crime
+  status: past
+  start: 2022
+  end: 2025
+  programme: HEU-FCT-IA
+  role: Senior researcher
+  url: https://tensor-horizon.eu/
+  logo: /assets/img/projects/TENSOR-Publications-1024x682.png
+  table_logo: /assets/img/projects/table/tensor-publications-1024x682.png
+- acronym: Anti-FinTer
+  title: Versatile artificial intelligence investigative technologies for revealing online cross-border financing activities of terrorism
+  status: past
+  start: 2022
+  end: 2023
+  programme: ISFP-AG-TERFIN
+  role: Technical manager
+  url: https://anti-finter.eu/
+  logo: /assets/img/projects/Anti-Finter-Publications.png
+  table_logo: /assets/img/projects/table/anti-finter-publications.png
+- acronym: 5G-EPICENTRE
+  title: 5G experimentation infrastructure hosting cloud-native NetApps for public protection and disaster relief
+  status: past
+  start: 2021
+  end: 2023
+  programme: H2020-ICT-IA
+  role: Senior researcher
+  url: https://www.5gepicentre.eu/
+  logo: /assets/img/projects/5G-Media-Publications.png
+- acronym: TRUSTS
+  title: Trusted secure data sharing space
+  status: past
+  start: 2020
+  end: 2022
+  programme: H2020-ICT-IA
+  role: Senior researcher
+  url: https://www.trusts-data.eu/
+  logo: /assets/img/projects/TRUSTS-Publications.png
+  table_logo: /assets/img/projects/table/trusts-publications.png
+- acronym: HR-Recycler
+  title: Hybrid human-robot recycling plant for electrical and electronic equipment
+  status: past
+  start: 2018
+  end: 2022
+  programme: H2020-FOF-RIA
+  role: Deputy coordinator
+  url: https://www.hr-recycler.eu/
+  logo: /assets/img/projects/HR-Recycler-Publications.png
+  table_logo: /assets/img/projects/table/hr-recycler-publications.png
+- acronym: ANITA
+  title: Advanced tools for fighting online illegal trafficking
+  status: past
+  start: 2018
+  end: 2021
+  programme: H2020-FCT RIA
+  role: Technical manager
+  url: https://www.anita-project.eu/
+  logo: /assets/img/projects/ANITA-Publications-1024x683.png
+  table_logo: /assets/img/projects/table/anita-publications-1024x683.png
+- acronym: Επικοινωνώ
+  title: Application development for the conversion of Greek sign language into written and spoken language using smart devices
+  status: past
+  start: 2018
+  end: 2020
+  programme: GSRT
+  role: Deputy technical manager
+  logo: /assets/img/projects/-----------Publications.png
+  table_logo: /assets/img/projects/table/publications.png
+- acronym: DANTE
+  title: Detecting and analysing terrorist-related online contents and financing activities
+  status: past
+  start: 2016
+  end: 2019
+  programme: H2020-FCT IA
+  role: Technical manager
+  url: https://www.h2020-dante.eu/
+  logo: /assets/img/projects/DANTE-Publications-2.png
+  table_logo: /assets/img/projects/table/dante-publications-2.png
+- acronym: LASIE
+  title: Large-scale information exploitation of forensic data
+  status: past
+  start: 2014
+  end: 2017
+  programme: FP7 SEC – IP
+  role: Deputy technical manager
+  url: https://cordis.europa.eu/project/id/607480
+  logo: /assets/img/projects/LASIE-Publications.png
+  table_logo: /assets/img/projects/table/lasie-publications.png
+- acronym: RePlay
+  title: Reusable low-cost platform for digitizing and preserving traditional participative sports
+  status: past
+  start: 2013
+  end: 2016
+  programme: FP7 STREP
+  role: Senior researcher
+  url: https://cordis.europa.eu/project/id/601170
+  logo: /assets/img/projects/RePlay-Publications-1.png
+  table_logo: /assets/img/projects/table/replay-publications-1.png
+- acronym: REVERIE
+  title: Real and virtual engagement in realistic immersive environments
+  status: past
+  start: 2011
+  end: 2015
+  programme: FP7 ICT–IP
+  role: Senior researcher
+  url: https://cordis.europa.eu/project/id/287723
+  logo: /assets/img/projects/REVERIE-Publications.png
+  table_logo: /assets/img/projects/table/reverie-publications.png
+- acronym: CEEDs
+  title: The collective experience of empathic data systems
+  status: past
+  start: 2010
+  end: 2014
+  programme: FP7 ICT – FET IP
+  role: Senior researcher
+  url: https://cordis.europa.eu/project/id/258749
+  logo: /assets/img/projects/CEEDS-Publications.png
+  table_logo: /assets/img/projects/table/ceeds-publications.png
+- acronym: GLOCAL
+  title: Event-based retrieval of networked media
+  status: past
+  start: 2009
+  end: 2012
+  programme: FP7 IST IP
+  role: Junior researcher
+  url: https://cordis.europa.eu/project/id/248984
+  logo: /assets/img/projects/logo-fp7-Publications.png
+- acronym: Vidi-video
+  title: Interactive semantic video search with a large thesaurus of machine learned audio-visual concepts
+  status: past
+  start: 2007
+  end: 2010
+  programme: FP6 IST STREP
+  role: Junior researcher
+  url: https://cordis.europa.eu/project/id/045547
+  logo: /assets/img/projects/logo-fp6-Publications.png
+- acronym: MESH
+  title: Multimedia semantic syndication for enhanced news services
+  status: past
+  start: 2006
+  end: 2009
+  programme: FP6 IST IP
+  role: Junior researcher
+  url: https://cordis.europa.eu/project/id/027685
+  logo: /assets/img/projects/logo-fp6-Publications.png
+- acronym: K-Space
+  title: Knowledge space of semantic inference for automatic annotation and retrieval of multimedia content
+  status: past
+  start: 2006
+  end: 2008
+  programme: FP6 IST NoE
+  role: Junior researcher
+  url: https://cordis.europa.eu/project/id/027026
+  logo: /assets/img/projects/logo-fp6-Publications.png
+- acronym: DELTIO
+  title: Analysis of multimedia content using evolutionary ontologies and application to television news bulletins
+  status: past
+  start: 2006
+  end: 2008
+  programme: GSRT
+  role: Junior researcher
+  logo: /assets/img/projects/gsrt-Publications-1024x683.png
+- acronym: aceMedia
+  title: Integrating knowledge, semantics and content for user centered intelligent media services
+  status: past
+  start: 2004
+  end: 2007
+  programme: FP6 IST IP
+  role: Junior researcher
+  url: https://cordis.europa.eu/project/id/001765
+  logo: /assets/img/projects/logo-fp6-Publications.png

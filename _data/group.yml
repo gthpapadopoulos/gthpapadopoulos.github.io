@@ -1,0 +1,17 @@
+# Research group (rendered on /group/).
+# Sections: phd, msc (MSc / MPhil), alumni. Fields: name, role, thesis (title), photo, url, start, co_supervisor
+phd:
+  - name: Georgios Angelidis
+    role: PhD candidate
+    thesis: "Visual perception using foundation models"
+    photo: /assets/img/people/georgios-angelidis-crop.jpg
+  - name: Aggelos Psiris
+    role: PhD candidate
+    thesis: "Adaptation of foundation models for computer vision applications"
+    photo: /assets/img/people/aggelos-psiris-crop.jpg
+  - name: Theodoros Doukidis
+    role: PhD candidate
+    thesis: "Machine vision techniques using foundation-model intelligence"
+    photo: /assets/img/people/theodoros-doukidis-crop.jpg
+msc: []      # TODO: add MSc / MPhil students if you want them listed
+alumni: []   # TODO: graduated PhD / MSc students, if any

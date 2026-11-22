@@ -1,0 +1,891 @@
+# Publications list (rendered on /publications/ and, for `selected: true`, on the home page).
+# Fields: type (journal | conference | chapter | preprint), year, title, authors, venue,
+#         optional: url (publisher page), doi, arxiv, researchgate, pdf, code, project, selected, note
+# Entries are shown newest first; within a year, in the order they appear in this file.
+# 2025-2027 entries were synced from Google Scholar on 2026-11-21.
+# Your name is highlighted automatically wherever "G. Th. Papadopoulos" appears.
+
+- type: conference
+  year: 2027
+  title: 'The Gap Is in the Geometry: A Convergent Meta-Analysis of Multi-Facet Aerial and Remote Sensing Video Understanding'
+  authors: G. Angelidis, A. Psiris, M. Vakalopoulou, G. Th. Papadopoulos, G. Sfikas, I. Varlamis
+  venue: IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops, January 2027
+  arxiv: https://arxiv.org/abs/2610.19102
+- type: conference
+  year: 2027
+  title: 'SALT: State-Aligned Low-Rank Transfer for Single-Temporal Cross-Dataset Structural Localization in Remote Sensing'
+  authors: A. Psiris, G. Angelidis, G. Sfikas, M. Vakalopoulou, T. Lagkas, P. Sarigiannidis, G. Th. Papadopoulos
+  venue: Third Workshop on Computer Vision for Geospatial Image Analysis (GeoCV), IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) Workshops, January 2027
+  arxiv: https://arxiv.org/abs/2611.17077
+- type: conference
+  year: 2026
+  title: Improving IoT Intrusion Detection with Identifier-Free Synthetic Attack Augmentation
+  authors: C. Chronis, I. Varlamis, V. Efthymiou, G. Th. Papadopoulos
+  venue: IEEE Big Data, December 2026
+- type: conference
+  year: 2026
+  title: 'GATE-AD: Graph Attention Network Encoding For Few-Shot Industrial Visual Anomaly Detection'
+  authors: A. Psiris, Y. Panagakis, M. Vakalopoulou, G. Th. Papadopoulos
+  venue: The Fortieth Annual Conference on Neural Information Processing Systems (NeurIPS 2026), December 2026
+  arxiv: https://arxiv.org/abs/2603.15300
+  selected: true
+- type: preprint
+  year: 2026
+  title: Quaternion Flows for Probabilistic Rotation Estimation
+  authors: G. Sfikas, I. Kakogeorgiou, L. Grammatikopoulos, G. Petsangourakis, K. Nikolaidou, A. Adam, G. Th. Papadopoulos
+  venue: arXiv, November 2026
+- type: preprint
+  year: 2026
+  title: 'From Robotic Detections to Response Plans: An Augmented Reality 3D Gaussian Splatting Workspace for Experiential First Responder Training'
+  authors: D. Apostolakis, G. Angelidis, A. Leonidis, V. Argyriou, T. Lagkas, P. Sarigiannidis, G. Th. Papadopoulos
+  venue: arXiv, November 2026
+- type: preprint
+  year: 2026
+  title: More Data, Better Detection? Evaluating Synthetic Augmentation for IoT Intrusion Detection
+  authors: C. Sardianos, A. Ferrou, I. Nanouris, I. Varlamis, G. Th. Papadopoulos
+  venue: arXiv, November 2026
+  researchgate: https://www.researchgate.net/publication/417743207_MORE_DATA_BETTER_DETECTION_EVALUATING_SYNTHETIC_AUGMENTATION_FOR_IOT_INTRUSION_DETECTION
+- type: preprint
+  year: 2026
+  title: 'Ripple: Detecting Unknown Network Attacks with Normalizing Flows'
+  authors: S. Chatziargyros, I. Varlamis, G. Th. Papadopoulos
+  venue: arXiv, November 2026
+- type: preprint
+  year: 2026
+  title: 'Disaster Robotics in the Deep Learning Era: A Systematic Review of Platforms, Autonomy, Methods, Datasets, Challenges, and Future Research Directions'
+  authors: G. Angelidis, A. Psiris, T. Lagkas, V. Argyriou, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: Research Square, November 2026
+  researchgate: https://www.researchgate.net/publication/417339735_Disaster_Robotics_in_the_Deep_Learning_Era_A_Systematic_Review_of_Platforms_Autonomy_Methods_Datasets_Challenges_and_Future_Research_Directions
+- type: preprint
+  year: 2026
+  title: 'Routing and Interconnection Optimization in Space Networks: A Survey of Architectures, Protocols, and Emerging Techniques'
+  authors: G. Margos, P. Amanatidis, G. Th. Papadopoulos, S. K. Goudos, P. Sarigiannidis, T. Lagkas
+  venue: arXiv, November 2026
+- type: preprint
+  year: 2026
+  title: Physics-Aware Self-Supervised Pretraining on Multi-Domain Raman Spectra
+  authors: C. Davalas, G. Levantinos, A. Dimitriou, N. Papanikolaou, G. Th. Papadopoulos, D. Michail
+  venue: arXiv, October 2026
+  arxiv: https://arxiv.org/abs/2610.23955
+- type: preprint
+  year: 2026
+  title: 'Knowledge-graph-enhanced LLMs for cyber threat intelligence and digital forensics: a meta-analysis'
+  authors: C. Sardianos, V. Efthymiou, I. Varlamis, T. Lagkas, P. Sarigiannidis, G. Th. Papadopoulos
+  venue: arXiv, October 2026
+  researchgate: https://www.researchgate.net/publication/417208861_KNOWLEDGE-GRAPH-ENHANCED_LLMS_FOR_CYBER_THREAT_INTELLIGENCE_AND_DIGITAL_FORENSICS_A_META-ANALYSIS
+- type: preprint
+  year: 2026
+  title: Physics-Validated Generative Modelling for Robotised Single-Fiber Characterisation Using a Conditional Variational Autoencoder
+  authors: A. Prócel, Y. Spyridis, A. Chevallier, K. Cherifi, V. Placet, C. Clevy, G. Th. Papadopoulos, T. Lagkas, P. Sarigiannidis, V. Argyriou
+  venue: arXiv, October 2026
+- type: preprint
+  year: 2026
+  title: 'Trust Before Autonomy: Rethinking Agentic Remote Sensing for Crisis Response'
+  authors: G. Angelidis, A. Psiris, S. Evangelatos, T. Lagkas, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: arXiv, October 2026
+  arxiv: https://arxiv.org/abs/2610.18789
+- type: preprint
+  year: 2026
+  title: 'SEAL-DT: An End-to-End Security Engineering and Assurance Framework for Cross-Domain Digital Twins'
+  authors: I. Varlamis, S. Zindros, C. Sardianos, T. Lagkas, P. Sarigiannidis, G. Th. Papadopoulos
+  venue: arXiv, October 2026
+  arxiv: https://arxiv.org/abs/2610.17097
+- type: journal
+  year: 2026
+  title: Balanced and Adaptive Scheduling of Battery Digital Product Passports over IoT-oriented DLTs
+  authors: K. Voulgaridis, G. Th. Papadopoulos, S. K. Goudos, P. Sarigiannidis, T. Lagkas
+  venue: Elsevier Computer Networks, vol. 291, 112886, December 2026
+  doi: 10.1016/j.comnet.2026.112886
+  url: https://www.sciencedirect.com/science/article/pii/S1389128626008984
+- type: journal
+  year: 2026
+  title: 'RGB Optical Remote Sensing in the Deep Learning Era: A Systematic Review of Methods, Models, Datasets, Challenges, and Future Research Directions'
+  authors: P. Koletsis, G. Angelidis, V. Efthymiou, D. Michail, C. N. Chalkias, T. Lagkas, P. Sarigiannidis, G. Th. Papadopoulos
+  venue: IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, vol. 19, pp. 33850-33903, 2026
+  doi: 10.1109/JSTARS.2026.3737028
+  url: https://ieeexplore.ieee.org/abstract/document/11704674/
+- type: journal
+  year: 2026
+  title: 'Foundation Models in Robotics: A Comprehensive Review of Methods, Models, Datasets, Challenges and Future Research Directions'
+  authors: A. Psiris, V. Argyriou, E. K. Markakis, P. Sarigiannidis, E. Gavves, K. Bekris, A. Ajoudani, G. Th. Papadopoulos
+  venue: Transactions on Machine Learning Research (TMLR), 2026 (Survey Certification)
+  url: https://openreview.net/forum?id=qF7vdPrpPk
+  arxiv: https://arxiv.org/abs/2604.15395
+  selected: true
+- type: journal
+  year: 2026
+  title: 'Visual Hand Gesture Recognition with Deep Learning: A Comprehensive Review of Methods, Datasets, Challenges and Future Research Directions'
+  authors: K. Foteinos, M. Linardakis, P. Radoglou-Grammatikis, V. Argyriou, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: Elsevier Neurocomputing, vol. 704, 134793, December 2026
+  doi: 10.1016/j.neucom.2026.134793
+  url: https://www.sciencedirect.com/science/article/pii/S0925231226021910
+  arxiv: https://arxiv.org/abs/2507.04465
+- type: preprint
+  year: 2026
+  title: 'From AI-Assisted to Agentic Cyber Threat Intelligence: A Lifecycle-Oriented Survey and Research Directions'
+  authors: C. Filippidis, P. Radoglou-Grammatikis, N. Ntampakis, V. Georgieva, N. Karditsioti, I. Leonidas, F. Kralidis, E. Kilaroglou, C. Dalamagkas, A. Kazakli, E. K. Markakis, T. Lagkas, G. Th. Papadopoulos, P. Sarigiannidis
+  venue: arXiv, September 2026
+- type: preprint
+  year: 2026
+  title: 'ISAC Sensing Reliability Under Legacy Coexistence in Unlicensed Spectrum: A Stochastic Geometry Analysis'
+  authors: D. Pliatsios, T. Lagkas, G. Th. Papadopoulos, E. K. Markakis, S. K. Goudos, J. S. Banerjee, P. Sarigiannidis
+  venue: arXiv, September 2026
+- type: conference
+  year: 2026
+  title: 'HANSARD: A Reference Architecture for Forensic Readiness, Runtime Witnessing, and Graded Attribution in Autonomous Multi-Agent AI Systems'
+  authors: C. Sardianos, I. Pla, V. Efthymiou, I. Varlamis, T. Lagkas, P. Sarigiannidis, G. Th. Papadopoulos
+  venue: IEEE SEEDA-CECNSM 2026, September 2026
+  arxiv: https://arxiv.org/abs/2608.22512
+- type: conference
+  year: 2026
+  title: A Control-Theoretic Framework for Community Policing under Misleading Information and Reliability Constraints
+  authors: S. Evangelatos, E. Veroni, G. Dede, G. Th. Papadopoulos, E. Markakis, P. Sarigiannidis
+  venue: IEEE 31st International Workshop on Computer Aided Modeling and Design of Communication Links and Networks (CAMAD), September 2026
+  researchgate: https://www.researchgate.net/publication/404152848_A_Control-Theoretic_Framework_for_Community_Policing_under_Misleading_Information_and_Reliability_Constraints
+- type: conference
+  year: 2026
+  title: 'CaseBundleGen: LLM-Driven Generation of Synthetic Multimodal Data Lake Cases'
+  authors: C. Panagiotopoulos, P. Koletsis, T. Koulouris, G. Th. Papadopoulos, K. Stefanidis, V. Efthymiou
+  venue: IEEE SEEDA-CECNSM 2026, September 2026
+- type: preprint
+  year: 2026
+  title: Automated Per-Layer Pruning Method and Ratio Selection Across Neural Architecture Families via Graph Surrogates and Pareto-Aware Search
+  authors: N. Ntampakis, P. Radoglou-Grammatikis, I. Tsingalis, A. Sarigiannidis, E. K. Markakis, G. Th. Papadopoulos, M. Zevgara, P. Sarigiannidis
+  venue: arXiv, August 2026
+- type: conference
+  year: 2026
+  title: 'Energy-Based Counterfactual Explanations for Cybersecurity: Comparative Insights Across Modern Explainable Artificial Intelligence Methods'
+  authors: S. Evangelatos, E. Veroni, G. Th. Papadopoulos, S. Karagiorgou, I. Pastellas, P. Sarigiannidis
+  venue: 2026 IEEE International Conference on Cyber Security and Resilience (CSR), pp. 641-648, Lisbon, Portugal, August 2026
+  doi: 10.1109/CSR69374.2026.11759629
+  url: https://ieeexplore.ieee.org/abstract/document/11759629/
+- type: conference
+  year: 2026
+  title: Federated Detection of KNX Attacks with Network Flow Statistics in Industrial Environments
+  authors: C. Dalamagkas, P. Radoglou-Grammatikis, A. Sarigiannidis, E. K. Markakis, M.-A. Kourtis, T. Lagkas, G. Th. Papadopoulos, V. Argyriou, P. Sarigiannidis
+  venue: 2026 IEEE International Conference on Cyber Security and Resilience (CSR), pp. 762-768, Lisbon, Portugal, August 2026
+  doi: 10.1109/CSR69374.2026.11760011
+  url: https://ieeexplore.ieee.org/abstract/document/11760011/
+- type: journal
+  year: 2026
+  title: 'Beyond Vulnerabilities: A Comprehensive Survey of Adversarial Attacks Across Domains'
+  authors: D. C. Asimopoulos, P. Radoglou-Grammatikis, G. Th. Papadopoulos, P. Sarigiannidis
+  venue: Elsevier Computer Science Review, vol. 61, 100963, August 2026
+  doi: 10.1016/j.cosrev.2026.100963
+  url: https://www.sciencedirect.com/science/article/pii/S1574013726000717
+  selected: true
+- type: conference
+  year: 2026
+  title: Hybrid CTA Approach Based on Pretrained Embeddings Similarity and Tree Ensemble Classification
+  authors: P. Koletsis, C. Panagiotopoulos, G. Th. Papadopoulos, I. Varlamis, V. Efthymiou
+  venue: 21st International Workshop on Ontology Matching (OM 2026), co-located with ISWC 2026, Bari, Italy, October 2026
+  url: http://om.ontologymatching.org/2026/papers/om2026-STpaper1.pdf
+- type: preprint
+  year: 2026
+  title: Temporal Process Signature Networks for Open-Set Multi-Modal IoT Intrusion Detection
+  authors: S. Chatziargyros, C. Sardianos, I. Varlamis, G. Th. Papadopoulos
+  venue: arXiv, July 2026
+- type: conference
+  year: 2026
+  title: 'Lightweight and LLM-based Approaches for Security Query Answering in Edge Computing: A Comparative Evaluation'
+  authors: V. Bakratsi, P. Amanatidis, G. Th. Papadopoulos, S. Goudos, P. Sarigiannidis, T. Lagkas
+  venue: IEEE SEEDA-CECNSM 2026, July 2026
+- type: conference
+  year: 2026
+  title: Streaming Spectral-Gap Estimation for Self-Tuning Wireless Schedulers
+  authors: G. Amponis, P. Radoglou-Grammatikis, N. Moschos, S. Mavridopoulos, E. K. Markakis, T. Lagkas, G. Th. Papadopoulos, S. Shiaeles, M.-A. Kourtis, N. Kolokotronis, A. Boursia
+  venue: IEEE SEEDA-CECNSM 2026, July 2026
+- type: conference
+  year: 2026
+  title: A Unified AI-Driven Edge Framework for Autonomous Search and Rescue Drone Mission Planning
+  authors: C. Chronis, I. Varlamis, G. Th. Papadopoulos
+  venue: 'Robotics: Science and Systems (RSS) 2026 Workshops, July 2026'
+  researchgate: https://www.researchgate.net/publication/409260770_A_Unified_AI-Driven_Edge_Framework_for_Autonomous_Search_and_Rescue_Drone_Mission_Planning
+- type: conference
+  year: 2026
+  title: Fingerprint-Based Selective Rejection for Improving Reliability Under Adversarial Attacks
+  authors: D.-C. Asimopoulos, V. Vitsas, P. Radoglou-Grammatikis, D. Pliatsios, G. Th. Papadopoulos, S. Goudos, T. Lagkas, E. K. Markakis, P. Sarigiannidis
+  venue: 2026 15th International Conference on Modern Circuits and Systems Technologies (MOCAST), pp. 1-4, Palma, Spain, June 2026
+  doi: 10.1109/MOCAST70204.2026.11626445
+  url: https://ieeexplore.ieee.org/abstract/document/11626445/
+- type: preprint
+  year: 2026
+  title: 'From Graphs to Gradients: Physics-Inspired Structural Attribution for Cyber-Physical IoT Systems and Beyond'
+  authors: S. Evangelatos, C. Diou, G. Th. Papadopoulos, E. Markakis, P. Sarigiannidis
+  venue: arXiv, June 2026
+  arxiv: https://arxiv.org/abs/2607.05563
+- type: preprint
+  year: 2026
+  title: 'Facial Expression Recognition in the Deep Learning Era: A Systematic Multi-Criteria Review of Methods, Models, Datasets, Performance, Challenges, and Future Research Directions'
+  authors: S. Georgiou, A. Psiris, S. Evangelatos, T. Lagkas, V. Argyriou, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: arXiv, June 2026
+  arxiv: https://arxiv.org/abs/2606.08612
+- type: conference
+  year: 2026
+  title: Quantum Machine Learning versus Machine Learning for Intrusion Detection in 5G Environments
+  authors: I. D. Leonidas, P. Radoglou-Grammatikis, E. K. Markakis, M.-A. Kourtis, T. Lagkas, G. Th. Papadopoulos, V. Argyriou, P. Sarigiannidis
+  venue: 2026 22nd International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT), pp. 553-560, Reykjavik, Iceland, June 2026
+  doi: 10.1109/DCOSS-IoT69657.2026.00091
+  url: https://ieeexplore.ieee.org/abstract/document/11659395/
+- type: conference
+  year: 2026
+  title: A Practical Workflow for Synthetic Energy Time-Series Generation and Evaluation for Smart-Energy Forecasting
+  authors: M. Pham, G. Tsoumplekas, V. Li, Y. Spyridis, B. Villarini, G. Th. Papadopoulos, T. Lagkas, P. Sarigiannidis, V. Argyriou
+  venue: 2026 22nd International Conference on Distributed Computing in Smart Systems and the Internet of Things (DCOSS-IoT), pp. 473-480, Reykjavik, Iceland, June 2026
+  doi: 10.1109/DCOSS-IoT69657.2026.00081
+  url: https://ieeexplore.ieee.org/abstract/document/11659498/
+- type: conference
+  year: 2026
+  title: Interactive Augmented Reality-enabled Outdoor Scene Visualization For Enhanced Real-time Disaster Response
+  authors: D. Apostolakis, G. Angelidis, V. Argyriou, P. Sarigiannidis, G. Th. Papadopoulos
+  venue: 7th International Conference in Electronic Engineering, Information Technology & Education (EEITE) 2026, June 2026
+  arxiv: https://arxiv.org/abs/2602.21874
+- type: conference
+  year: 2026
+  title: Open-Vocabulary vs Supervised Learning Methods for Post-Disaster Visual Scene Understanding
+  authors: A. Michailidou, G. Angelidis, V. Argyriou, P. Sarigiannidis, G. Th. Papadopoulos
+  venue: 2026 7th International Conference in Electronic Engineering & Information Technology (EEITE), pp. 1-8, June 2026
+  doi: 10.1109/EEITE69609.2026.11679544
+  arxiv: https://arxiv.org/abs/2603.01324
+- type: conference
+  year: 2026
+  title: Large-scale Photorealistic Outdoor 3D Scene Reconstruction from UAV Imagery Using Gaussian Splatting Techniques
+  authors: C. Maikos, G. Angelidis, G. Th. Papadopoulos
+  venue: 2026 7th International Conference in Electronic Engineering & Information Technology (EEITE), pp. 1-7, June 2026
+  doi: 10.1109/EEITE69609.2026.11679655
+  arxiv: https://arxiv.org/abs/2602.20342
+- type: conference
+  year: 2026
+  title: A High-Level Survey of Optical Remote Sensing
+  authors: P. Koletsis, V. Efthymiou, M. Vakalopoulou, N. Komodakis, A. Doulamis, G. Th. Papadopoulos
+  venue: 2026 7th International Conference in Electronic Engineering & Information Technology (EEITE), pp. 1-8, June 2026
+  doi: 10.1109/EEITE69609.2026.11679635
+  arxiv: https://arxiv.org/abs/2602.17397
+- type: conference
+  year: 2026
+  title: 'FR-GESTURE: An RGBD Dataset For Gesture-based Human-Robot Interaction In First Responder Operations'
+  authors: K. Foteinos, G. Angelidis, A. Psiris, V. Argyriou, P. Sarigiannidis, G. Th. Papadopoulos
+  venue: 2026 7th International Conference in Electronic Engineering & Information Technology (EEITE), pp. 1-8, June 2026
+  doi: 10.1109/EEITE69609.2026.11679639
+  arxiv: https://arxiv.org/abs/2602.17573
+- type: conference
+  year: 2026
+  title: 'Facial Affect Analysis for Service-Oriented Systems: Advances, Challenges, and Future Visions'
+  authors: S. Georgiou, A. Psiris, T. Lagkas, V. Argyriou, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: 2026 IEEE International Conference on Service-Oriented System Engineering (SOSE), pp. 80-89, July 2026
+  doi: 10.1109/SOSE71128.2026.00018
+  arxiv: https://arxiv.org/abs/2606.15351
+- type: preprint
+  year: 2026
+  title: 'Latent-Assisted Lyapunov–Stackelberg Scheduling: Staleness Thresholds and Adversarial Guarantees'
+  authors: G. Amponis, T. Lagkas, P. Radoglou-Grammatikis, A. Sarigiannidis, E. K. Markakis, G. Th. Papadopoulos, S. Shiaeles, N. Kolokotronis, P. Sarigiannidis
+  venue: arXiv, May 2026
+  researchgate: https://www.researchgate.net/publication/405010136_Latent-Assisted_Lyapunov-Stackelberg_Scheduling_Staleness_Thresholds_and_Adversarial_Guarantees
+- type: journal
+  year: 2026
+  title: 'Illicit object detection in X-ray imaging using deep learning techniques: A comparative evaluation'
+  authors: J. Cani, C. Diou, S. Evangelatos, V. Argyriou, P. Radoglou-Grammatikis, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: IEEE Access, vol. 14, pp. 27171-27208, 2026
+  doi: 10.1109/ACCESS.2026.3663982
+  url: https://ieeexplore.ieee.org/abstract/document/11394723/
+  arxiv: https://arxiv.org/abs/2507.17508
+- type: conference
+  year: 2026
+  title: Sustainable Face Recognition on Low-Power Devices with VQ-VAE Embeddings
+  authors: C. Chronis, G. Th. Papadopoulos, I. Varlamis
+  venue: 2026 IEEE 12th International Conference on Big Data Computing Service and Machine Learning Applications (BigDataService), pp. 195-201, Fukuoka, Japan, July 2026
+  doi: 10.1109/BigDataService70481.2026.00041
+  url: https://ieeexplore.ieee.org/abstract/document/11654234/
+- type: conference
+  year: 2026
+  title: ControlNet-Guided Diffusion for Realistic Plant Leaf Generation
+  authors: G. Tsoumplekas, M. Pham, Y. Spyridis, T. Lagkas, G. Th. Papadopoulos, P. Sarigiannidis, V. Argyriou
+  venue: 21st International Conference on Computer Vision Theory and Applications (VISAPP), pp. 491-498, March 2026
+  doi: 10.5220/0014397400004084
+  url: https://www.scitepress.org/Papers/2026/143974/143974.pdf
+- type: journal
+  year: 2026
+  title: 'Exploring Energy Landscapes for Minimal Counterfactual Explanations: Applications in Cybersecurity and Beyond'
+  authors: S. Evangelatos, E. Veroni, V. Efthymiou, C. Nikolopoulos, G. Th. Papadopoulos, P. Sarigiannidis
+  venue: IEEE Transactions on Artificial Intelligence, vol. 7, pp. 2506-2522, May 2026
+  doi: 10.1109/TAI.2025.3599764
+  url: https://ieeexplore.ieee.org/abstract/document/11199968/
+  arxiv: https://arxiv.org/abs/2503.18185
+- type: journal
+  year: 2026
+  title: 'AI4FIDS: Multimodal Federated Intrusion Detection'
+  authors: P. Radoglou-Grammatikis, P. Bouzinis, I. Makris, T. Lagkas, V. Argyriou, G. Th. Papadopoulos, P. Fouliras, G. Seritan, P. Sarigiannidis
+  venue: IEEE Transactions on Emerging Topics in Computing, vol. 14, pp. 812-826, July-September 2026
+  doi: 10.1109/TETC.2025.3562346
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10976495
+- type: conference
+  year: 2025
+  title: Mitigating Model Replacement Attacks in Federated Learning-based Intrusion Detection Systems
+  authors: P. S. Bouzinis, P. Radoglou-Grammatikis, N. A. Mitsiou, T. K. Oikonomou, V. Koutsioumpa, G. Th. Papadopoulos, V. Kotsirou, G. K. Karagiannidis, P. Sarigiannidis
+  venue: 2025 IEEE Globecom Workshops (GC Wkshps), pp. 2006-2011, Taipei, Taiwan, December 2025
+  doi: 10.1109/GCWkshps68340.2025.11591058
+  url: https://ieeexplore.ieee.org/abstract/document/11591058/
+- type: conference
+  year: 2025
+  title: Relationship Detection on Tabular Data Using Statistical Analysis and Large Language Models
+  authors: P. Koletsis, C. Panagiotopoulos, G. Th. Papadopoulos, V. Efthymiou
+  venue: 'VLDB 2025 Workshop: Tabular Data Analysis (TaDA), September 2025'
+  arxiv: https://arxiv.org/abs/2506.06371
+- type: journal
+  year: 2025
+  title: Survey on Hand Gesture Recognition From Visual Input
+  authors: M. Linardakis, I. Varlamis, G. Th. Papadopoulos
+  venue: IEEE Access, vol. 13, pp. 135373-135406, 2025
+  doi: 10.1109/ACCESS.2025.3593428
+  url: https://ieeexplore.ieee.org/abstract/document/11098825/
+  arxiv: https://arxiv.org/abs/2501.11992
+  selected: true
+- type: conference
+  year: 2025
+  title: X-ray illicit object detection using hybrid CNN-transformer neural network architectures
+  authors: J. Cani, C. Diou, S. Evangelatos, P. Radoglou-Grammatikis, V. Argyriou, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: 2025 IEEE 11th International Conference on Big Data Computing Service and Machine Learning Applications (BigDataService), pp. 210-217, Tucson, AZ, USA, July 2025
+  doi: 10.1109/BigDataService65758.2025.00039
+  url: https://ieeexplore.ieee.org/abstract/document/11129604/
+  arxiv: https://arxiv.org/abs/2505.00564
+- type: conference
+  year: 2025
+  title: Classification of Greek News Articles by Text Type Using Open Large Language Models
+  authors: I. Veneti, I. Varlamis, G. Th. Papadopoulos
+  venue: 2025 6th International Conference in Electronic Engineering & Information Technology (EEITE), pp. 1-7, Chania, Greece, June 2025
+  doi: 10.1109/EEITE65381.2025.11166401
+  url: https://ieeexplore.ieee.org/abstract/document/11166401/
+- type: conference
+  year: 2025
+  title: Public Space Security Management Using Digital Twin Technologies
+  authors: S. Zindros, C. Chronis, P. Radoglou-Grammatikis, V. Argyriou, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: 2025 25th International Conference on Digital Signal Processing (DSP), pp. 1-5, Pylos, Greece, June 2025
+  doi: 10.1109/DSP65409.2025.11074808
+  url: https://ieeexplore.ieee.org/abstract/document/11074808/
+  arxiv: https://arxiv.org/abs/2503.06996
+- type: conference
+  year: 2025
+  title: 'Kubernetes in Edge and Cloud Computing: A Comparative Study of K3s, K0s, MicroK8s, and K8s'
+  authors: M. Skoularikis, A. Liatifis, D. Pliatsios, V. Argyriou, E. Markakis, T. Lagkas, G. Th. Papadopoulos, P. Sarigiannidis
+  venue: 2025 6th International Conference in Electronic Engineering & Information Technology (EEITE), pp. 1-6, Chania, Greece, June 2025
+  doi: 10.1109/EEITE65381.2025.11166028
+  url: https://ieeexplore.ieee.org/abstract/document/11166028/
+- type: conference
+  year: 2025
+  title: 'TORNADO: Foundation Models for Robots that Handle Small, Soft and Deformable Objects'
+  authors: M. Moutousi, A. El Saer, N. Nikolaou, A. Sanfeliu, A. Garrell, L. Bláha, M. Čech, E. K. Markakis, I. Kefaloukos, M. Lagomarsino, G. Margetis, E. Adamakis, A. Poulakidas, F. Lykokanellos, A. Stefanidou, J. Cani, P. Radoglou-Grammatikis, M. Siganos,
+    A. Ajoudani, G. Th. Papadopoulos
+  venue: 2025 6th International Conference in Electronic Engineering & Information Technology (EEITE), pp. 1-13, Chania, Greece, June 2025
+  doi: 10.1109/EEITE65381.2025.11166473
+  url: https://ieeexplore.ieee.org/abstract/document/11166473/
+- type: conference
+  year: 2025
+  title: 'TRIFFID: Autonomous Robotic Aid For Increasing First Responders Efficiency'
+  authors: J. Cani, P. Koletsis, K. Foteinos, I. Kefaloukos, L. Argyriou, M. Falelakis, I. D. Pino, A. Santamaria-Navarro, M. Čech, O. Severa, A. Umbrico, F. Fracasso, A. Orlandini, D. Drakoulis, E. Markakis, I. Varlamis, G. Th. Papadopoulos
+  venue: 2025 6th International Conference in Electronic Engineering & Information Technology (EEITE), pp. 1-9, Chania, Greece, June 2025
+  doi: 10.1109/EEITE65381.2025.11166443
+  url: https://ieeexplore.ieee.org/abstract/document/11166443/
+  arxiv: https://arxiv.org/abs/2502.09379
+- type: conference
+  year: 2025
+  title: State of Play and Future Directions in Industrial Computer Vision AI Standards
+  authors: A. Stefanidou, P. Radoglou-Grammatikis, V. Argyriou, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: 2025 IEEE Conference on Artificial Intelligence (CAI), pp. 1528-1533, Santa Clara, CA, USA, May 2025
+  doi: 10.1109/CAI64502.2025.00288
+  url: https://ieeexplore.ieee.org/abstract/document/11050649/
+  arxiv: https://arxiv.org/abs/2503.02675
+- type: journal
+  year: 2025
+  title: 'StatAvg: Mitigating Data Heterogeneity in Federated Learning for Intrusion Detection Systems'
+  authors: P. S. Bouzinis, P. Radoglou-Grammatikis, I. Makris, T. Lagkas, V. Argyriou, G. Th. Papadopoulos, P. Sarigiannidis, G. K. Karagiannidis
+  venue: IEEE Transactions on Network and Service Management, vol. 22, pp. 2944-2955, August 2025
+  doi: 10.1109/TNSM.2025.3564387
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=10977044
+- type: journal
+  year: 2025
+  title: Resource Efficient Federated LoRaWAN Architecture for Far-Edge IoT Applications
+  authors: A. Triantafyllou, I. Siniosoglou, V. Argyriou, S. K. Goudos, G. Th. Papadopoulos, K. Panitsidis, P. Sarigiannidis
+  venue: IEEE Access, vol. 13, pp. 108766-108785, 2025
+  doi: 10.1109/ACCESS.2025.3580375
+  url: https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=11037774
+- type: journal
+  year: 2025
+  title: 'Self-supervised visual learning in the low-data regime: a comparative evaluation'
+  authors: S. Konstantakos, J. Cani, I. Mademlis, D. I. Chalkiadaki, Y. M. Asano, E. Gavves, G. Th. Papadopoulos
+  venue: Elsevier Neurocomputing, vol. 620, 129199, March 2025
+  doi: 10.1016/j.neucom.2024.129199
+  url: https://www.sciencedirect.com/science/article/pii/S0925231224019702
+- type: journal
+  year: 2025
+  title: 'Advances in Diffusion Models for Image Data Augmentation: A Review of Methods, Models, Evaluation Metrics and Future Research Directions'
+  authors: P. Alimisis, I. Mademlis, P. Radoglou-Grammatikis, P. Sarigiannidis, G. Th. Papadopoulos
+  venue: Springer Artificial Intelligence Review, vol. 58, 112, January 2025
+  doi: 10.1007/s10462-025-11116-x
+  url: https://link.springer.com/article/10.1007/s10462-025-11116-x
+  selected: true
+- type: journal
+  year: 2025
+  title: 'The Invisible Arms Race: Digital Trends in Illicit Goods Trafficking and AI-Enabled Responses'
+  authors: I. Mademlis, M. Mancuso, C. Paternoster, S. Evangelatos, E. Finlay, J. Hughes, P. Radoglou-Grammatikis, P. Sarigiannidis, G. Stavropoulos, K. Votis, G. Th. Papadopoulos
+  venue: IEEE Transactions on Technology and Society, vol. 6, pp. 181-199, June 2025
+  doi: 10.1109/TTS.2024.3514683
+  url: https://ieeexplore.ieee.org/abstract/document/10813620/
+- type: preprint
+  year: 2025
+  title: 'Towards Optimal Multi-Agent UAV Route Planning in IoT Networks: A Cooperative Deep Reinforcement Learning Solution'
+  authors: Y. Spyridis, T. Lagkas, G. Th. Papadopoulos, P. Sarigiannidis, V. Argyriou
+  venue: arXiv, June 2025
+- type: journal
+  year: 2025
+  title: 'Applied Federated Model Personalization in the Industrial Domain: A Comparative Study'
+  authors: I. Siniosoglou, V. Argyriou, G. Fragulis, P. Fouliras, G. Th. Papadopoulos, A. Lytos, P. Sarigiannidis
+  venue: IEEE Open Journal of the Communications Society, vol. 6, pp. 3192-3210, 2025
+  doi: 10.1109/OJCOMS.2024.3457803
+  url: https://ieeexplore.ieee.org/abstract/document/10677011
+- type: journal
+  year: 2024
+  title: Distributed maze exploration using multiple agents and optimal goal assignment
+  authors: M. Linardakis, I. Varlamis, G. Th. Papadopoulos
+  venue: IEEE Access, 2024
+  url: https://ieeexplore.ieee.org/document/10605811
+- type: journal
+  year: 2024
+  title: 'Multimodal Explainable Artificial Intelligence: A Comprehensive Review of Methodological Advances and Future Research Directions'
+  authors: N. Rodis, C. Sardianos, P. Radoglou-Grammatikis, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: IEEE Access, 2024
+  url: https://ieeexplore.ieee.org/abstract/document/10689601
+- type: journal
+  year: 2024
+  title: 'Neural natural language processing for long texts: A survey on classification and summarization'
+  authors: D. Tsirmpas, I. Gkionis, G. Th. Papadopoulos, I. Mademlis
+  venue: Elsevier Engineering Applications of Artificial Intelligence, 2024
+  url: https://www.sciencedirect.com/science/article/pii/S0952197624003890
+- type: conference
+  year: 2024
+  title: 'Encrypted Biometric Search: A Deep Learning Approach to Scalable and Secure Cross-Border Data Exchange'
+  authors: K. Miniadou, A. Leonidis, G. Th. Papadopoulos, C. Stephanidis
+  venue: IEEE Big Data 2024, 15-18 December, Washington DC, USA 2024
+  url: https://ieeexplore.ieee.org/abstract/document/10825332/
+- type: conference
+  year: 2024
+  title: A Secure and Trustworthy Biometric Data Ecosystem for Cross-border Suspect Identification
+  authors: K. Kyriakou, A. Apostolaras, P. Velentzas, G. Benos, K. Koutsoukos, C. Symvoulidis, K. Liang, Z. Shi, A. Leonidis, K. Miniadou, E. Veroni, S. Evangelatos, G. Th. Papadopoulos, T. Korakis
+  venue: IEEE Big Data 2024, 15-18 December, Washington DC, USA 2024
+  url: https://ieeexplore.ieee.org/abstract/document/10826113/
+- type: conference
+  year: 2024
+  title: Adversarial Attack Generator for evaluating the robustness of Machine Learning Models against Adversarial Attacks
+  authors: D. C. Asimopoulos, P. Radoglou-Grammatikis, T. Lagkas, V. Argyriou, I. Moscholios, J. Cani, G. Th. Papadopoulos, Evangelos Markakis, Panagiotis Sarigiannidis
+  venue: IEEE Big Data 2024, 15-18 December, Washington DC, USA 2024
+  url: https://ieeexplore.ieee.org/abstract/document/10826110/
+- type: conference
+  year: 2024
+  title: Entity Extraction from High-Level Corruption Schemes via Large Language Models
+  authors: P. Koletsis, P. K. Gemos, C. Chronis, I. Varlamis, V. Efthymiou, G. Th. Papadopoulos
+  venue: IEEE Big Data 2024, 15-18 December, Washington DC, USA 2024
+  url: https://ieeexplore.ieee.org/abstract/document/10824994/
+- type: conference
+  year: 2024
+  title: Leveraging Digital Twin Technologies for Public Space Protection and Vulnerability Assessment
+  authors: A. Stefanidou, J. Cani, T. Papadopoulos, P. Radoglou-Grammatikis, P. Sarigiannidis, I. Varlamis, G. Th. Papadopoulos
+  venue: IEEE Big Data 2024, 15-18 December, Washington DC, USA 2024
+  url: https://ieeexplore.ieee.org/abstract/document/10825359
+- type: conference
+  year: 2024
+  title: 'CEASEFIRE: An AI-powered system for combatting illicit firearms trafficking'
+  authors: I. Mademlis, J. Cani, M. Mancuso, C. Paternoster, E. Adamakis, G. Margetis, S. Chambon, A. Crouzil, L. Lechelek, G. Dede, S. Evangelatos, G. Lalas, F. Mignet, P. Linardatos, K. Kentrotis, H. Gierszal, P. Tyczka, S. Karagiorgou, G. Pantelis,
+    G. Stavropoulos, K. Votis, G. Th. Papadopoulos
+  venue: IEEE Big Data 2024, 15-18 December, Washington DC, USA 2024
+  url: https://www.computer.org/csdl/proceedings-article/bigdata/2024/10825989/23ykH9r69nG
+- type: conference
+  year: 2024
+  title: Privacy-Preserving Energy Recommendations Using Federated Learning and Local LLMs on the edge
+  authors: C. Chronis, I. Varlamis, G. Dimitrakopoulos, F. Bensaali, G. Th. Papadopoulos
+  venue: 'International Workshop on Embedded Intelligence: Bridging Big Data and Embedded Systems for Future Technologies (EI-BBDESFT) 2024, 16-19 December Sharjah, UAE, 2024'
+  researchgate: https://www.researchgate.net/publication/390611529_Privacy-Preserving_Energy_Recommendations_Using_Federated_Learning_and_Local_LLMs_on_the_Edge
+- type: conference
+  year: 2024
+  title: Multi-robot maze exploration using an efficient cost-utility method
+  authors: M. Linardakis, I. Varlamis, G. Th. Papadopoulos
+  venue: EETN Conference on Artificial Intelligence (SETN) 2024, September 11-13, 2024
+  url: https://dl.acm.org/doi/abs/10.1145/3688671.3688760
+- type: conference
+  year: 2024
+  title: Enhancing Secure Cross-Border Collaboration among Law Enforcement Agencies for Facial Biometric Search
+  authors: K. Miniadou, A. Leonidis, G. Th. Papadopoulos, C. Stephanidis
+  venue: 5th International Conference in Electronic Engineering, Information Technology & Education (EEITE) 2024, 29 -31 May Chania – Crete, Greece 2024
+  url: https://ieeexplore.ieee.org/abstract/document/10654447
+- type: conference
+  year: 2024
+  title: 'Exploring Machine Learning Algorithms for Infection Detection Using GC-IMS Data: A Preliminary Study'
+  authors: C. Sardianos, C. Symvoulidis, M. Schlogl, I. Varlamis, G. Th. Papadopoulos
+  venue: 5th International Conference in Electronic Engineering, Information Technology & Education (EEITE) 2024, 29 -31 May Chania – Crete, Greece 2024
+  url: https://ieeexplore.ieee.org/abstract/document/10654431
+- type: conference
+  year: 2024
+  title: Illicit object detection in X-ray images using Vision Transformers
+  authors: J. Cani, I. Mademlis, A. A. R. Chrysochoou, G. Th Papadopoulos
+  venue: 5th International Conference in Electronic Engineering, Information Technology & Education (EEITE) 2024, 29 -31 May Chania – Crete, Greece 2024
+  url: https://ieeexplore.ieee.org/document/10654433
+- type: journal
+  year: 2023
+  title: Current Challenges and Future Research Directions in Multimodal Explainable Artificial Intelligence
+  authors: Ν. Rodis, C. Sardianos and G. Th. Papadopoulos
+  venue: ERCIM News 134, 2023
+  url: https://ercim-news.ercim.eu/en134/special/current-challenges-and-future-research-directions-in-multimodal-explainable-artificial-intelligence
+- type: conference
+  year: 2023
+  title: Investigating visual analytics against terrorist financing in Dark Web marketplaces
+  authors: K. Miniadou, E. Kyriakou, S. Tzagkarakis, A. Leonidis, G. Th. Papadopoulos, C. Stephanidis
+  venue: IEEE Int. Conf. on Big Data 2023, 15-18 December, Sorrento, Italy 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10386657
+- type: conference
+  year: 2023
+  title: Self-supervised visual learning for analyzing firearms trafficking activities on the Web
+  authors: S. Konstantakos, D. I. Chalkiadaki, I. Mademlis, A. A. R. Chrysochoou, G. Th. Papadopoulos
+  venue: IEEE Int. Conf. on Big Data 2023, 15-18 December, Sorrento, Italy 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10386795
+- type: conference
+  year: 2023
+  title: Visual inspection for illicit items in X-ray images using Deep Learning
+  authors: I. Mademlis, G. Batsis, A. A. R. Chrysochoou, G. Th. Papadopoulos
+  venue: IEEE Int. Conf. on Big Data 2023, 15-18 December, Sorrento, Italy 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10386207
+- type: conference
+  year: 2023
+  title: Illicit item detection in X-ray images for security applications
+  authors: G. Batsis, I. Mademlis and G. Th. Papadopoulos
+  venue: IEEE International Conference on Big Data Service, 2023
+  url: https://ieeexplore.ieee.org/abstract/document/10233969
+- type: journal
+  year: 2022
+  title: Countering Terrorist Financing
+  authors: R. King, G. Kioumourtzis and G. Th. Papadopoulos
+  venue: ERCIM News 129, 2022
+  url: https://publications.ait.ac.at/de/publications/countering-terrorist-financing
+- type: conference
+  year: 2022
+  title: User profile-driven large-scale multi-agent learning from demonstration in federated human-robot collaborative environments
+  authors: G. Th. Papadopoulos, A. Leonidis, M. Antona and C. Stephanidis
+  venue: International Conference on Human-Computer Interaction (HCI International), pp. 548-563, 2022
+  url: https://link.springer.com/chapter/10.1007/978-3-031-05409-9_40
+- type: journal
+  year: 2021
+  title: A comprehensive study on deep learning-based methods for sign language recognition
+  authors: N. Adaloglou, T. Chatzis, I. Papastratis, A. Stergioulas, G. Th. Papadopoulos, V. Zacharopoulou, G. Xydopoulos, K. Atzakas, D. Papazachariou and P. Daras
+  venue: IEEE Transactions on Multimedia, Vol. 24, pp. 1750-1762, 2021
+  url: https://ieeexplore.ieee.org/abstract/document/9393618
+- type: journal
+  year: 2021
+  title: Towards open and expandable cognitive AI architectures for large-scale multi-agent human-robot collaborative learning
+  authors: G. Th. Papadopoulos, M. Antona and C. Stephanidis
+  venue: IEEE Access, 9, 2021
+  url: https://ieeexplore.ieee.org/abstract/document/9431107
+- type: journal
+  year: 2020
+  title: Deep sensorimotor learning for RGB-D object recognition
+  authors: S. Thermos, G. Th. Papadopoulos, P. Daras and G. Potamianos
+  venue: Elsevier Computer Vision and Image Understanding (CVIU) 190, 2020
+  url: https://www.sciencedirect.com/science/article/pii/S1077314219301432
+- type: conference
+  year: 2020
+  title: Neural Network Compression Using Higher-Order Statistics and Auxiliary Reconstruction Losses
+  authors: C. Chatzikonstantinou, G. Th. Papadopoulos, K. Dimitropoulos and P. Daras
+  venue: IEEE/CVF Conference on Computer Vision and Pattern Recognition (IEEE CVPR), pp. 716-717, 2020
+  url: https://openaccess.thecvf.com/content_CVPRW_2020/html/w40/Chatzikonstantinou_Neural_Network_Compression_Using_Higher-Order_Statistics_and_Auxiliary_Reconstruction_Losses_CVPRW_2020_paper.html
+- type: conference
+  year: 2019
+  title: Cross-domain Knowledge Transfer Schemes for 3D Human Action Recognition
+  authors: A. Psaltis, G. Th. Papadopoulos and P. Daras
+  venue: 27th European Signal Processing Conference, EUSIPCO, 2019
+  url: https://ieeexplore.ieee.org/abstract/document/8902670
+- type: conference
+  year: 2019
+  title: Deep Spatio-Temporal Modeling for Object-Level Gaze-Based Relevance Assessment
+  authors: K. Stavridis, A. Psaltis, A. Dimou, G. Th. Papadopoulos and P. Daras
+  venue: 27th European Signal Processing Conference, EUSIPCO, 2019
+  url: https://ieeexplore.ieee.org/abstract/document/8902990
+- type: conference
+  year: 2019
+  title: A hybrid human-robot collaborative environment for recycling electrical and electronic equipment
+  authors: G. Th. Papadopoulos, A. Axenopoulos, D. Giakoumis, I. Kostavelis, A. Papadimitriou, S. Sillaurren, L. Bastida, O. S. Oguz, D. Wollherr, E. Garnics, V. Vouloutsi, P. Verschure, D. Tzovaras and P. Daras
+  venue: 5th IEEE Int. Conf. on Internet of People (IoP 2019), 19-23 August, Leicester, UK, 2019
+  url: https://ieeexplore.ieee.org/abstract/document/9060304
+- type: conference
+  year: 2019
+  title: Incorporating Textual Similarity in Video Captioning Schemes
+  authors: K. Gkountakos, A. Dimou, G. Th. Papadopoulos and P. Daras
+  venue: IEEE International Conference on Engineering, Technology and Innovation (ICE), 2019
+  url: https://ieeexplore.ieee.org/abstract/document/8792602
+- type: conference
+  year: 2019
+  title: A Reliability Object Layer for Deep Hashing-Based Visual Indexing
+  authors: K. Gkountakos, T. Semertzidis, G. Th. Papadopoulos and P. Daras
+  venue: In International Conference on Multimedia Modeling, pp. 132-143, Springer, 2019
+  url: https://link.springer.com/chapter/10.1007/978-3-030-05716-9_11
+- type: conference
+  year: 2018
+  title: Attention-enhanced sensorimotor object recognition
+  authors: S. Thermos, G. Th. Papadopoulos, P. Daras and G. Potamianos
+  venue: IEEE International Conference on Image Processing (ICIP), Athens, Greece, October 2018
+  url: https://ieeexplore.ieee.org/abstract/document/8451158
+- type: conference
+  year: 2018
+  title: Deep 3D Flow Features for Human Action Recognition
+  authors: A. Psaltis, G. Th. Papadopoulos, P. Daras
+  venue: IEEE Int. Conf. on Content-Based Multimedia Indexing (CBMI 2018), pp. 1-6, La Rochelle, France, September 2018
+  url: https://ieeexplore.ieee.org/abstract/document/8516470
+- type: journal
+  year: 2018
+  title: Human Action Recognition Using 3D Reconstruction Data
+  authors: G. Th. Papadopoulos and P. Daras
+  venue: IEEE Transactions on Circuits and Systems for Video Technology, vol. 28, no. 8, pp. 1807-1823, August 2018
+  doi: 10.1109/TCSVT.2016.2643161
+  url: https://ieeexplore.ieee.org/abstract/document/7792623
+- type: conference
+  year: 2017
+  title: Global Flow and Temporal-Shape Descriptors for Human Action Recognition from 3D Reconstruction Data
+  authors: G. Th. Papadopoulos and P. Daras
+  venue: International Conference on Machine Learning and Data Mining in Pattern Recognition (MLDM), 2017
+  url: https://link.springer.com/chapter/10.1007/978-3-319-62416-7_4
+- type: conference
+  year: 2017
+  title: Deep Affordance-grounded Sensorimotor Object Recognition
+  authors: S. Thermos, G. Th. Papadopoulos, P. Daras and G. Potamianos
+  venue: IEEE Conference on Computer Vision and Pattern Recognition (CVPR 2017), Honolulu, Hawaii, USA, July 2017
+  url: https://openaccess.thecvf.com/content_cvpr_2017/html/Thermos_Deep_Affordance-Grounded_Sensorimotor_CVPR_2017_paper.html
+- type: conference
+  year: 2017
+  title: 'SHREC’17 track: Large-Scale 3D Shape Retrieval from ShapeNet Core55'
+  authors: M. Savva, F. Yu, H. Su, A. Kanezaki, T. Furuya, R. Ohbuchi, Z. Zhou, R. Yu, S. Bai, X. Bai, M. Aono, A. Tatsuma, S. Thermos, A. Axenopoulos, G. Th. Papadopoulos, P. Daras, X. Deng, Z. Lian, B. Li, H. Johan, Y. Lu, S. Mk
+  venue: Eurographics Workshop on 3D Object Retrieval, 2017
+  url: https://dl.acm.org/doi/abs/10.2312/3dor.20171050
+- type: conference
+  year: 2017
+  title: Incorporation of Semantic Segmentation Information in Deep Hashing Techniques for Image Retrieval
+  authors: K. Gkountakos, T. Semertzidis, G. Th. Papadopoulos and P. Daras
+  venue: IEEE International Conference on Engineering, Technology and Innovation (23rd ICE/ITMC), Madeira Island, Portugal, 27-29 June, 2017
+  url: https://ieeexplore.ieee.org/abstract/document/8279944
+- type: conference
+  year: 2016
+  title: Deep cross-layer activation features for visual recognition
+  authors: G. Th. Papadopoulos, E. Machairidou and P. Daras
+  venue: IEEE International Conference on Image Processing (ICIP), Phoenix, Arizona, USA, September 2016
+  url: https://ieeexplore.ieee.org/abstract/document/7532492
+- type: chapter
+  year: 2015
+  title: 'The Human as the Mind in the Machine: Addressing Big Data'
+  authors: J. Freeman, A. Miotto, J. Lessiter, P. Verschure, P. Omedas, A. K. Seth, G. Th. Papadopoulos, A. Caria, E. André, M. Cavazza, L. Gamberini, A. Spagnolli, J. Jost, S. Kouider, B. Takács, A. Sanfeliu, D. De Rossi, C. Cenedese, J. L. Bintliff and
+    G. Jacucci
+  venue: in Human Computer Confluence, 198-212, Publ. Sciendo Migration, 2015
+  url: https://iris.unitn.it/bitstream/11572/268951/1/%5BHuman%20Computer%20Confluence%5D%2011.%20The%20Human%20as%20the%20Mind%20in%20the%20Machine_%20Addressing%20Big%20Data.pdf
+- type: journal
+  year: 2014
+  title: Gaze-based Relevance Feedback for Realizing Region-based Image Retrieval
+  authors: G. Th. Papadopoulos, K. C. Apostolakis and P. Daras
+  venue: IEEE Transactions on Multimedia, Vol. 16, No. 2, pp. 440-454, February 2014
+  url: https://ieeexplore.ieee.org/abstract/document/6671553
+- type: conference
+  year: 2014
+  title: Local Descriptions for Human Action Recognition from 3D Reconstruction Data
+  authors: G. Th. Papadopoulos and P. Daras
+  venue: IEEE International Conference on Image Processing (ICIP 2014), pp. 2814-2818, Paris, France, November 2014
+  url: https://ieeexplore.ieee.org/abstract/document/7025569
+- type: conference
+  year: 2014
+  title: Real-time Skeleton-tracking-based Human Action Recognition Using Kinect Data
+  authors: G. Th. Papadopoulos, A. Axenopoulos and P. Daras
+  venue: 20th International Conference on MultiMedia Modeling (MMM 2014), pp. 473-483, Dublin, Ireland, January 2014
+  url: https://link.springer.com/chapter/10.1007/978-3-319-04114-8_40
+- type: conference
+  year: 2012
+  title: Image Interpretation by Combining Ontologies and Bayesian Networks
+  authors: S. Nikolopoulos, G. Th. Papadopoulos, I. Kompatsiaris and I. Patras
+  venue: 7th Hellenic Conference on Artificial Intelligence (SETN 2012), Lamia-Greece, May 2012
+  url: https://link.springer.com/chapter/10.1007/978-3-642-30448-4_39
+- type: journal
+  year: 2011
+  title: Joint Modality Fusion and Temporal Context Exploitation for Semantic Video Analysis
+  authors: G. Th. Papadopoulos, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: EURASIP Journal on Advances in Signal Processing 2011
+  url: https://link.springer.com/article/10.1186/1687-6180-2011-89
+- type: journal
+  year: 2011
+  title: A Comparative Study of Object-level Spatial Context Techniques for Semantic Image Analysis
+  authors: G. Th. Papadopoulos, C. Saathoff, H. J. Escalante, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: Computer Vision and Image Understanding, Elsevier, vol. 115, no. 9, pp. 1288-1307, September 2011
+  url: https://www.sciencedirect.com/science/article/pii/S1077314211001275
+- type: journal
+  year: 2011
+  title: Evidence driven image interpretation by combining implicit and explicit knowledge in a bayesian network
+  authors: S. Nikolopoulos, G. Th. Papadopoulos, I. Kompatsiaris and I. Patras
+  venue: 'IEEE Transactions on Systems, Man and Cybernetics – Part B: Cybernetics, vol.41, no.5, pp.1366-1381, Oct. 2011'
+  url: https://ieeexplore.ieee.org/abstract/document/5783308
+- type: chapter
+  year: 2011
+  title: Knowledge-Driven Segmentation and Classification
+  authors: Th. Athanasiadis, Ph. Mylonas, G. Th. Papadopoulos, V. Mezaris, Y. Avrithis, I. Kompatsiaris and M. G. Strintzis
+  venue: 'Multimedia Semantics: Metadata, Analysis and Interaction, R. Troncy, B. Huet and S. Schenk (Editors), pp. 163-182, Wiley, July 2011'
+  url: https://onlinelibrary.wiley.com/doi/abs/10.1002/9781119970231.ch10
+- type: journal
+  year: 2010
+  title: A System for the Semantic Multimodal Analysis of News Audio-Visual Content
+  authors: V. Mezaris, S. Gidaros, G. Th. Papadopoulos, W. Kasper, J. Steffen, R. Ordelman, M. Huijbregts, F. de Jong, I. Kompatsiaris and M. G. Strintzis
+  venue: EURASIP Journal on Advances in Signal Processing, vol. 2010 (2010), Article ID 645052
+  url: https://link.springer.com/content/pdf/10.1155/2010/645052.pdf
+- type: conference
+  year: 2010
+  title: Probabilistic Combination of Spatial Context with Visual and Co-occurrence Information for Semantic Image Analysis
+  authors: G. Th. Papadopoulos, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: IEEE International Conference on Image Processing (ICIP 2010), Hong Kong Convention and Exhibition Centre, Hong Kong, accepted for publication
+  url: https://ieeexplore.ieee.org/abstract/document/5652615
+- type: conference
+  year: 2010
+  title: A Statistical Learning Approach to Spatial Context Exploitation for Semantic Image Analysis
+  authors: G. Th. Papadopoulos, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: 20th International Conference on Pattern Recognition (ICPR 2010), pp. 3138-3142, Istanbul, Turkey, August 2010
+  url: https://ieeexplore.ieee.org/abstract/document/5597309
+- type: journal
+  year: 2009
+  title: Statistical Motion Information Extraction and Representation for Semantic Video Analysis
+  authors: G. Th. Papadopoulos, A. Briassouli, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: IEEE Transactions on Circuits and Systems for Video Technology (TCSVT), Vol. 19, No. 10, pp. 1513-1528, October 2009
+  url: https://ieeexplore.ieee.org/abstract/document/5159431
+- type: conference
+  year: 2009
+  title: Combining Multimodal and Temporal Contextual Information for Semantic Video Analysis
+  authors: G. Th. Papadopoulos, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: IEEE International Conference on Image Processing (ICIP 2009), pp. 4325-4328, Cairo, Egypt, November 2009
+  url: https://ieeexplore.ieee.org/abstract/document/5413673
+- type: conference
+  year: 2009
+  title: An evidence-driven probabilistic inference framework for semantic image understanding
+  authors: S. Nikolopoulos, G. Th. Papadopoulos, I. Kompatsiaris and I. Patras
+  venue: 6th International Conference on Machine Learning and Data Mining in Pattern Recognition (MLDM 2009), pp. 525-539, Leipzig, Germany, July 2009
+  url: https://link.springer.com/chapter/10.1007/978-3-642-03070-3_40
+- type: conference
+  year: 2009
+  title: Comparative Evaluation of Spatial Context Techniques for Semantic Image Analysis
+  authors: G. Th. Papadopoulos, C. Saathoff, M. Grzegorzek, V. Mezaris, I. Kompatsiaris, S. Staab and M. G. Strintzis
+  venue: 10th International Workshop on Image Analysis for Multimedia Interactive Services (WIAMIS 2009), pp. 161-164, London, UK, May 2009
+  url: https://ieeexplore.ieee.org/abstract/document/5031457
+- type: conference
+  year: 2009
+  title: Integrating Image Segmentation and Classification for Fuzzy Knowledge-based Multimedia Indexing
+  authors: T. Athanasiadis, N. Simou, G. Th. Papadopoulos, R. Benmokhtar, K. Chandramouli, V. Tzouvaras, V. Mezaris, M. Phiniketos, Y. Avrithis, Y. Kompatsiaris, B. Huet and E. Izquierdo
+  venue: 15th International Multimedia Modeling Conference (MMM ’09), Sophia-Antipolis, France, January 2009
+  url: https://link.springer.com/chapter/10.1007/978-3-540-92892-8_29
+- type: chapter
+  year: 2008
+  title: Semantic Video Analysis and Understanding
+  authors: V. Mezaris, G. Th. Papadopoulos, A. Briassouli, I. Kompatsiaris, M. G. Strintzis
+  venue: in Encyclopedia of Information Science and Technology (2nd Edition), Mehdi Khosrow-Pour (Editor), vol. VII, pp. 3419-3425, IGI Global, October 2008
+  url: https://www.igi-global.com/chapter/semantic-video-analysis-understanding/14081
+- type: conference
+  year: 2008
+  title: Combining Segmentation and Classification Techniques for Fuzzy Knowledge-based Semantic Image Annotation
+  authors: G. Th. Papadopoulos, T. Athanasiadis, N. Simou, R. Benmokhtar, K. Chandramouli, V. Tzouvaras, V. Mezaris, M. Phiniketos, Y. Avrithis, Y. Kompatsiaris, B. Huet and E. Izquierdo
+  venue: 3rd International Conference on Semantics And digital Media Technologies (SAMT ’08), Poster and Demos research track, Koblenz, Germany, December 2008
+  url: https://www.researchgate.net/publication/229007623_Combining_Segmentation_and_Classification_Techniques_for_Fuzzy_Knowledge-based_Semantic_Image_Annotation
+- type: conference
+  year: 2008
+  title: Semantic Video Analysis Based on Estimation and Representation of Higher-Order Motion Statistics
+  authors: G. Th. Papadopoulos, A. Briassouli, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: 3rd International Workshop on Semantic Media Adaptation and Personalization (SMAP ’08), pp. 21-26, Prague, Czech Republic, December 2008
+  url: https://ieeexplore.ieee.org/abstract/document/4724843
+- type: conference
+  year: 2008
+  title: MESH participation to TRECVID2008 HLFE
+  authors: J. Molina, V. Mezaris, P. Villegas, G. Tolias, E. Spyrou, N. Sofou, J. Rodríguez-Benito, G. Th. Papadopoulos, S. Nikolopoulos, J. M. Martínez, I. Kompatsiaris, P. Kapsalas, A. Dimou, E. Bru, Y. Avrithis, T. Adamek
+  venue: Proc. TRECVID 2008 Workshop, Gaithersburg, MD, USA, November 2008
+  url: https://d1wqtxts1xzle7.cloudfront.net/52321045/trecvid08_mesh-libre.pdf?1490600504=&response-content-disposition=inline%3B+filename%3DMESH_participation_to_TRECVID2008_HLFE.pdf&Expires=1739192979&Signature=Q7UVO5aRjMQPuPSs1k1ebKqBIs~3Rqpy3k0xIlc86UQbC6frRIvClFsSCcahH3ij9~bHsrB-mq0hxuhEeJl5PCizsPfR9AFoVFBDy9mFdRlqtPUjlgeUXEHJCh5IMTXJjsnk7oR1MEpqnntBe0Hfhz2p246lA3emSFc97MGaGGjroiRDyasJfdofcK0sQN5Kd-wIsydnhYqk~lWS51FWOO2icfqs0LHeoF-ddcz1r0Nq8MeoDphMMhyKttmGEUYAqQWJ~d0qZdPffI0hgczzx4sv~kaCQFEQp3d8XDPn9LYGeSsMjguHjLUNFHFqCKyGrmnTSh7MaxT4-ntTcxAQDA__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
+- type: conference
+  year: 2008
+  title: Estimation and Representation of Accumulated Motion Characteristics for Semantic Event Detection
+  authors: G. Th. Papadopoulos, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: IEEE International Conference on Image Processing, Workshop on Multimedia Information Retrieval (ICIP-MIR 2008), pp. 41-44, San Diego, California, USA, October 2008
+  url: https://ieeexplore.ieee.org/abstract/document/4711686
+- type: conference
+  year: 2008
+  title: Accumulated Motion Energy Fields Estimation and Representation for Semantic Event Detection
+  authors: G. Th. Papadopoulos, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: Proc. International Conference on Image and Video Retrieval (CIVR 2008), Niagara Falls, Canada, July 2008
+  url: https://dl.acm.org/doi/abs/10.1145/1386352.1386385
+- type: conference
+  year: 2008
+  title: Knowledge-assisted cross-media analysis of audio-visual content in the news domain
+  authors: V. Mezaris, S. Gidaros, G. Th. Papadopoulos, W. Kasper, R. Ordelman, F.M.G. de Jong and I. Kompatsiaris
+  venue: 6th International Workshop on Content-Based Multimedia Indexing (CBMI 2008), pp. 280-287, London, UK, July 2008
+  url: https://ieeexplore.ieee.org/abstract/document/4564958
+- type: conference
+  year: 2008
+  title: A Comparative Study of Classification Techniques for Knowledge-Assisted Image Analysis
+  authors: G. Th. Papadopoulos, K. Chandramouli, V. Mezaris, I. Kompatsiaris, E. Izquierdo and M.G. Strintzis
+  venue: 9th International Workshop on Image Analysis for Multimedia Interactive Services (WIAMIS 2008), pp. 4-7, Klagenfurt, Austria, May 2008
+  url: https://ieeexplore.ieee.org/abstract/document/4556868
+- type: conference
+  year: 2008
+  title: K-Space at TRECVid 2008
+  authors: P. Wilkins, D. Byrne, G. J. F. Jones, H. Lee, G. Keenan, K. McGuinness, G. Th. Papadopoulos, V. Mezaris, I. Kompatsiaris
+  venue: Proc. TRECVID 2008 Workshop, Gaithersburg, MD, USA, November 2008
+  url: https://www.researchgate.net/publication/220784130_KSpace_at_TRECVid_2008
+- type: journal
+  year: 2007
+  title: Combining Global and Local Information for Knowledge-Assisted Image Analysis and Classification
+  authors: G. Th. Papadopoulos, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: EURASIP Journal on Advances in Signal Processing, Special Issue on Knowledge-Assisted Media Analysis for Interactive Multimedia Applications, vol. 2007 (2007), Article ID 45842
+  url: https://link.springer.com/content/pdf/10.1155/2007/45842.pdf
+- type: conference
+  year: 2007
+  title: Knowledge-based Semantic Annotation and Retrieval of Multimedia Content
+  authors: G. Akrivas, G. Th. Papadopoulos, M. Douze, J. Heinecke, N. O’Connor, C. Saathoff and S. Waddington
+  venue: Proc. Second International Conference on Semantics and Digital Media Technologies (SAMT 2007), pp. 5-6, Genova, Italy, December 2007
+  url: https://doras.dcu.ie/307/
+- type: conference
+  year: 2007
+  title: Ontology-Driven Semantic Video Analysis Using Visual Information Objects
+  authors: G. Th. Papadopoulos, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: Proc. Second International Conference on Semantics and Digital Media Technologies (SAMT 2007), pp. 56-69, Genova, Italy, December 2007
+  url: https://link.springer.com/chapter/10.1007/978-3-540-77051-0_5
+- type: conference
+  year: 2007
+  title: K-Space at TRECVid 2007
+  authors: P. Wilkins, T. Adamek, D. Byrne, G. J. F. Jones, H. Lee, G. Keenan, G. Th. Papadopoulos, S. Vrochidis, V. Mezaris, I. Kompatsiaris, et al
+  venue: 5th TRECVID Workshop, Gaithersburg, MD, USA, November 2007
+  url: https://www.researchgate.net/publication/220784063_K-Space_at_TRECVid_2007
+- type: conference
+  year: 2007
+  title: Combining Content and Context Information for Semantic Image Analysis and Classification
+  authors: G. Th. Papadopoulos, V. Mezaris, I. Kompatsiaris and M. G. Strintzis
+  venue: 15th European Signal Processing Conference (EUSIPCO 2007), special session on The Semantic Gap in Visual Information Retrieval, pp. 708-712, Poznan, Poland, September 2007
+  url: https://ieeexplore.ieee.org/abstract/document/7098895
+- type: journal
+  year: 2006
+  title: Knowledge-Assisted Image Analysis Based on Context and Spatial Optimization
+  authors: G. Th. Papadopoulos, Ph. Mylonas, V. Mezaris, Y. Avrithis, I. Kompatsiaris
+  venue: International Journal on Semantic Web and Information Systems, Vol. 2, Issue 3, pp. 17-36, July-September 2006
+  url: https://www.igi-global.com/article/knowledge-assisted-image-analysis-based/2822
+- type: conference
+  year: 2006
+  title: Semantic Image Analysis Using a Learning Approach and Spatial Context
+  authors: G. Th. Papadopoulos, V. Mezaris, S. Dasiopoulou and I. Kompatsiaris
+  venue: 1st International Conference on Semantics and Digital Media Technologies (SAMT, formely EWIMT), special session on Context-based Multimedia Analysis and Representation, pp. 199-211, Athens, Greece, December 2006
+  url: https://link.springer.com/chapter/10.1007/11930334_16
+- type: conference
+  year: 2006
+  title: Using Context and a Genetic Algorithm for Knowledge-Assisted Image Analysis
+  authors: S. Dasiopoulou, G. Th. Papadopoulos, Ph. Mylonas, Y. Avrithis and I. Kompatsiaris
+  venue: 1st International Conference on Semantics And digital Media Technologies (SAMT, formely EWIMT), Athens, Greece, 2006
+  url: https://ceur-ws.org/Vol-233/p21.pdf
+- type: conference
+  year: 2006
+  title: A Learning Approach to Semantic Image Analysis
+  authors: G. Th. Papadopoulos, P. Panagi, S. Dasiopoulou, V. Mezaris and I. Kompatsiaris
+  venue: 2nd International Mobile Multimedia Communications Conference (Mobimedia, formely MSAN), K-Space special session on Automatic Annotation and Retrieval of Multimedia Content, Alghero, Sardinia, Italy, September 2006
+  url: https://dl.acm.org/doi/abs/10.1145/1374296.1374327
+- type: conference
+  year: 2006
+  title: A Genetic Algorithm Approach to Ontology-Driven Semantic Image Analysis
+  authors: P. Panagi, S. Dasiopoulou, G. Th. Papadopoulos, I. Kompatsiaris and M.G. Strintzis
+  venue: 3rd IEE International Conference of Visual Information Engineering (VIE), K-Space Research on Semantic Multimedia Analysis for Annotation and Retrieval special session, Bangalore, India, 2006
+  url: https://digital-library.theiet.org/doi/10.1049/cp%3A20060516

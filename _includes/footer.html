@@ -1,0 +1,12 @@
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-logos">
+      <a class="hua-lockup" href="{{ site.author.department_url }}" title="Department of Informatics and Telematics"><img src="{{ '/assets/img/logos/dit-logo-badge.png' | relative_url }}" alt="Department of Informatics and Telematics logo" width="44" height="44"><span>Department of Informatics<br>and Telematics</span></a>
+      <a class="hua-lockup" href="{{ site.author.university_url }}" title="Harokopio University of Athens"><img src="{{ '/assets/img/logos/hua-emblem-white.png' | relative_url }}" alt="Harokopio University of Athens emblem" width="44" height="44"><span>Harokopio University<br>of Athens</span></a>
+    </div>
+    <div class="footer-text">
+      {% include social.html %}
+      <p>&copy; {{ 'now' | date: '%Y' }} {{ site.author.name }}</p>
+    </div>
+  </div>
+</footer>

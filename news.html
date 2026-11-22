@@ -1,0 +1,38 @@
+---
+title: News
+permalink: /news/
+redirect_from:
+  - /news/2/
+  - /news/3/
+  - /news/4/
+---
+<div class="filters" role="toolbar" aria-label="Filter news">
+  <button class="chip active" data-filter="all">All <span>{{ site.posts.size }}</span></button>
+  {% for t in site.news_types %}
+    {% assign cnt = site.posts | where: "type", t[0] | size %}
+    {% if cnt > 0 %}<button class="chip" data-filter="{{ t[0] }}">{{ t[1].plural }} <span>{{ cnt }}</span></button>{% endif %}
+  {% endfor %}
+</div>
+
+<div class="filterable" data-items=".news-card">
+{% assign byyear = site.posts | group_by_exp: "p", "p.date | date: '%Y'" %}
+{% for y in byyear %}
+  <section class="year-group"{% if forloop.index > 2 %} data-older{% endif %}>
+    <h2 class="year">{{ y.name }}</h2>
+    <div class="news-cards">
+    {% for n in y.items %}
+      <a class="news-card" data-type="{{ n.type }}" href="{{ n.url | relative_url }}">
+        {% include thumb.html src=n.image %}
+        <div class="news-card-body">
+          <p class="post-meta"><time datetime="{{ n.date | date_to_xmlschema }}">{{ n.date | date: "%b %-d, %Y" }}</time> <span class="tag tag-{{ n.type }}">{{ site.news_types[n.type].label | default: "News" }}</span></p>
+          <h3>{{ n.title }}</h3>
+          <p class="excerpt">{{ n.excerpt | strip_html | truncatewords: 26 }}</p>
+        </div>
+      </a>
+    {% endfor %}
+    </div>
+  </section>
+{% endfor %}
+</div>
+{% if byyear.size > 2 %}{% assign oldest = byyear | last %}{% assign third = byyear[2] %}
+<p class="older-wrap"><button type="button" class="button ghost older-toggle" hidden>Show older news ({{ oldest.name }}–{{ third.name }})</button></p>{% endif %}

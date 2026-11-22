@@ -1,0 +1,21 @@
+---
+title: Contact
+permalink: /contact/
+---
+{% assign a = site.author %}
+<div class="contact-grid">
+  <div>
+    <p><strong>{{ a.name }}</strong><br>{{ a.department }}<br>{{ a.university }}</p>
+    <dl class="contact">
+      <dt>Address</dt><dd>{{ a.address }}</dd>
+      <dt>Office</dt><dd>{{ a.office }}</dd>
+      <dt>Telephone</dt><dd><a href="tel:{{ a.phone | remove: ' ' }}">{{ a.phone }}</a></dd>
+      <dt>E-mail</dt><dd><a href="mailto:{{ a.email }}">{{ a.email }}</a></dd>
+    </dl>
+    <p><a class="button" href="https://www.google.com/maps/search/?api=1&query=Harokopio+University+Department+of+Informatics+and+Telematics+Omirou+9+Tavros">Open in Google Maps</a></p>
+  </div>
+  <div class="map-card">
+    <iframe title="Map: Department of Informatics and Telematics, HUA" loading="lazy" referrerpolicy="no-referrer"
+      src="https://maps.google.com/maps?q=Harokopio%20University%20of%20Athens%2C%20Department%20of%20Informatics%20and%20Telematics&amp;t=m&amp;z=15&amp;output=embed&amp;iwloc=near"></iframe>
+  </div>
+</div>

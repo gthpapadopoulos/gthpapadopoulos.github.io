@@ -1,0 +1,90 @@
+# ---------------------------------------------------------------
+# Site settings — edit these first
+# ---------------------------------------------------------------
+title: Georgios Th. Papadopoulos
+description: >-
+  Assistant Professor in Computer Graphics and Computational Vision,
+  Department of Informatics and Telematics, Harokopio University of Athens.
+url: "https://gthpapadopoulos.github.io"   # or your custom domain
+baseurl: ""                          # keep "" for a <username>.github.io repository
+lang: en
+
+author:
+  name: Georgios Th. Papadopoulos
+  position: Assistant Professor
+  area: Computer Graphics and Computational Vision
+  department: Department of Informatics and Telematics
+  department_url: https://www.dit.hua.gr/
+  university: Harokopio University of Athens, Greece
+  university_url: https://www.hua.gr/
+  photo: /assets/img/people/georgios-papadopoulos.jpg
+  email: g.th.papadopoulos@hua.gr
+  phone: "+30 210 9549436"
+  office: "3.4, 3rd floor"
+  address: "Omirou 9, Tavros, Athens, Greece, GR17778"
+  scholar: https://scholar.google.com/citations?user=pJA7rO8AAAAJ&hl=en
+  linkedin: https://www.linkedin.com/in/georgios-th-papadopoulos-70569b15/
+  orcid: https://orcid.org/0000-0003-1686-421X
+  github: https://github.com/gthpapadopoulos
+  researchgate: https://www.researchgate.net/profile/Georgios-Papadopoulos-2
+  interests:      # shown as tags on the home page
+    - Foundation models for robotics
+    - Disaster robotics
+    - Self-supervised and generative visual learning
+    - 3D scene reconstruction
+    - Remote sensing image analysis
+    - Trustworthy and secure AI
+  cv: ""           # TODO: e.g. /assets/pdf/cv.pdf (shows a CV button when set)
+
+# Name variants highlighted in author lists
+me_names:
+  - "G. Th. Papadopoulos"
+  - "G. Th Papadopoulos"
+
+# Main menu (order shown in the header)
+nav:
+  - { title: Home,         url: / }
+  - { title: Publications, url: /publications/ }
+  - { title: Projects,     url: /projects/ }
+  - { title: Group,        url: /group/ }
+  - { title: Teaching,     url: /teaching/ }
+  - { title: News,         url: /news/ }
+  - { title: Contact,      url: /contact/ }
+
+# News item types: label shown on the tag
+news_types:
+  paper:   { label: Paper,   plural: Papers }
+  talk:    { label: Talk,    plural: Talks }
+  project: { label: Project, plural: Projects }
+  event:   { label: Event,   plural: Events }
+  visit:   { label: Visit,   plural: Visits }
+  vacancy: { label: Vacancy, plural: Vacancies }
+  news:    { label: News,    plural: Other news }
+
+# ---------------------------------------------------------------
+# Build settings (no need to change)
+# ---------------------------------------------------------------
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+timezone: Europe/Athens
+permalink: /:title/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-redirect-from
+feed:
+  path: news/feed.xml
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: page, image: /assets/img/share-card.png }   # image = default link preview (posts use their own cover)
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - .github

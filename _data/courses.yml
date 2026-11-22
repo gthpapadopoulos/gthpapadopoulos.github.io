@@ -1,0 +1,77 @@
+# Teaching (rendered on /teaching/). Names follow the department site (dit.hua.gr) and the programme sites.
+# Fields: title, url (eClass page), semester (short info line), description.
+undergraduate:
+  programme: BSc in Informatics and Telematics
+  courses:
+    - title: Programming II
+      url: https://eclass.hua.gr/courses/DIT301/
+      semester: 2nd semester · Compulsory · 6 ECTS
+      description: >-
+        The course covers advanced concepts of the C programming language for structured and modular programming. It
+        starts from control flow, functions, as well as the scope and lifetime of variables. It then focuses on
+        pointers in combination with arrays, strings and functions. Moreover, it presents user-defined data types
+        (structures, unions, enumerations) and dynamic memory management, including linked lists and binary search
+        trees. Additionally, it covers console and file input/output, the preprocessor, error handling, callback
+        functions, as well as the C standard library. Finally, it covers debugging and unit-testing practices.
+    - title: Digital Image Processing and Applications
+      url: https://eclass.hua.gr/courses/DIT271/
+      semester: 6th semester · Elective · 5 ECTS
+      description: >-
+        The course introduces the fundamental principles of digital image representation and processing. It covers
+        color models, sampling and quantization, geometric transformations, as well as the Fourier, cosine and Haar
+        transforms. Additionally, it presents image enhancement through noise removal, filtering and histogram
+        processing. Moreover, it covers image segmentation, edge detection, contour representation, and image
+        compression, including Huffman, arithmetic, LZW and JPEG coding. Finally, it presents feature extraction
+        (texture, color, LBP, HOG, SIFT), multiscale analysis with image pyramids, and an introduction to deep
+        learning with convolutional neural networks.
+    - title: Graphics and Computer Vision
+      url: https://eclass.hua.gr/courses/DIT311/
+      semester: 7th semester · Elective · 5 ECTS
+      description: >-
+        The course combines deep-learning-based computer vision with the fundamentals of computer graphics. The vision
+        part starts from image classification with the k-nearest neighbor classifier. It then presents convolutional
+        neural networks (AlexNet, VGG, GoogLeNet, ResNet) and transformers for image classification, object detection,
+        and image segmentation. The graphics part covers raster images, gamma correction and image compositing, as
+        well as ray tracing with shading, shadows and reflection. Moreover, it presents the viewing transformations,
+        orthographic and perspective projection, and the graphics pipeline, including rasterization, antialiasing and
+        texture mapping.
+postgraduate:
+  - programme: MSc in Advances in Computer Science and Information Systems
+    courses:
+      - title: Computer Vision
+        url: https://eclass.hua.gr/courses/DIT281/
+        semester: Data Science and Artificial Intelligence track · Spring semester · Elective
+        description: >-
+          The course covers the fundamental principles of digital image analysis, as well as modern deep learning
+          methods. It starts from image representation, color models, sampling and quantization, as well as geometric,
+          Fourier, cosine and Haar transforms. It then presents image enhancement, image segmentation, edge detection
+          with the Hough transform, and feature extraction (texture, color, LBP, HOG, SIFT) with multiscale analysis.
+          Additionally, it introduces deep learning with convolutional and recurrent neural networks, and applies it
+          to classification, object detection, segmentation, as well as image captioning. Moreover, it presents vision
+          transformers for the same tasks.
+  - programme: MPhil in Computer Science and Informatics
+    courses:
+      - title: Embedded Systems, Computer Vision and Robotics
+        url: https://eclass.hua.gr/courses/MPHIL104/
+        semester: 1st semester · Elective · 10 ECTS
+        description: >-
+          The course introduces key concepts of the 4th Industrial Revolution (Industry 4.0) and digital
+          transformation. It focuses on modern methods and technologies in machine vision, human-computer and
+          human-robot interaction, as well as embedded systems, with applications in industry, process automation, and
+          maintenance. Moreover, it involves the study of the relevant literature, as well as the comparative
+          evaluation of the solutions and products available on the market. Additionally, it includes the design and
+          implementation of a technical solution, using software libraries, machine and deep learning models, and
+          development environments.
+  - programme: Inter-departmental MSc in Applied Geoinformatics (MAGIC)
+    courses:
+      - title: Machine Learning
+        url: https://eclass.hua.gr/courses/MAGIC104/
+        semester: 1st semester · Compulsory · 7.5 ECTS
+        description: >-
+          The course introduces the fundamentals of machine learning, with a focus on computer vision. It starts from
+          the mathematical background, which covers linear algebra, calculus, probability, and optimization with
+          gradient descent. It then presents linear classifiers, fully connected and deep neural networks, the
+          backpropagation algorithm, as well as convolutional neural networks. Additionally, it covers training
+          practices, such as weight initialization, regularization, data augmentation, and transfer learning. Finally,
+          it presents the application of these networks to image classification, object detection, and image
+          segmentation, as well as vision transformers.

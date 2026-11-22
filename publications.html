@@ -1,0 +1,33 @@
+---
+title: Publications
+permalink: /publications/
+redirect_from:
+  - /p-test/
+---
+{% assign pubs = site.data.publications %}
+{% assign nj = pubs | where: "type", "journal" | size %}
+{% assign nc = pubs | where: "type", "conference" | size %}
+{% assign nb = pubs | where: "type", "chapter" | size %}
+{% assign np = pubs | where: "type", "preprint" | size %}
+{% assign years = pubs | group_by: "year" %}
+<p class="lead">For the complete and up-to-date list, see my <a href="{{ site.author.scholar }}">Google Scholar profile</a>.</p>
+<nav class="year-jump" aria-label="Jump to year"><span>Jump to</span>{% for y in years %}<a href="#y{{ y.name }}">{{ y.name }}</a>{% endfor %}</nav>
+
+<div class="filters" role="toolbar" aria-label="Filter publications">
+  <button class="chip active" data-filter="all">All <span>{{ pubs.size }}</span></button>
+  <button class="chip" data-filter="journal">Journals <span>{{ nj }}</span></button>
+  <button class="chip" data-filter="conference">Conferences <span>{{ nc }}</span></button>
+  <button class="chip" data-filter="chapter">Book chapters <span>{{ nb }}</span></button>
+  <button class="chip" data-filter="preprint">Preprints <span>{{ np }}</span></button>
+</div>
+
+<div class="filterable" data-items=".pub">
+{% for y in years %}
+  <section class="year-group" id="y{{ y.name }}">
+    <h2 class="year">{{ y.name }}</h2>
+    <ul class="pub-list">
+      {% for p in y.items %}{% include pub.html p=p %}{% endfor %}
+    </ul>
+  </section>
+{% endfor %}
+</div>

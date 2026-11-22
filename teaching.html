@@ -1,0 +1,20 @@
+---
+title: Teaching
+permalink: /teaching/
+redirect_from:
+  - /courses/
+---
+{% assign c = site.data.courses %}
+<h2>Undergraduate</h2>
+<h3 class="programme">{{ c.undergraduate.programme }}</h3>
+<div class="course-list">
+  {% for co in c.undergraduate.courses %}{% include course.html co=co %}{% endfor %}
+</div>
+
+<h2>Postgraduate</h2>
+{% for prog in c.postgraduate %}
+<h3 class="programme">{{ prog.programme }}</h3>
+<div class="course-list">
+  {% for co in prog.courses %}{% include course.html co=co %}{% endfor %}
+</div>
+{% endfor %}

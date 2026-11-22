@@ -1,0 +1,6 @@
+{% comment %}16:9 image box for news covers and paper figures. Framing mode per image comes from _data/thumbs.yml
+(news-builder/classify_thumbs.py): cover = fill, fit = whole image on white, blur = whole image over a blurred copy.
+News JPG/PNG images are shown from their .webp copy (tools/webp_news.py).{% endcomment %}
+{% assign src = include.src %}{% assign mode = site.data.thumbs[src] | default: "blur" %}
+{% assign disp = src %}{% if src contains '/assets/img/news/' %}{% unless src contains '.gif' or src contains '.webp' %}{% assign disp = src | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' | replace: '.png', '.webp' %}{% endunless %}{% endif %}
+<div class="thumb fit-{{ mode }}">{% if src and src != "" %}{% if mode == "blur" %}<img class="thumb-bg" src="{{ disp | relative_url }}" alt="" aria-hidden="true" loading="lazy">{% endif %}<img class="thumb-img" src="{{ disp | relative_url }}" alt="" loading="lazy">{% endif %}</div>

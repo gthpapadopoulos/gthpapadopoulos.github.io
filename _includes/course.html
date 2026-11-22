@@ -1,0 +1,7 @@
+{% assign co = include.co %}
+<article class="course">
+  <h4>{% if co.url and co.url != "" %}<a href="{{ co.url }}">{{ co.title }}</a>{% else %}{{ co.title }}{% endif %}
+    {% if co.code and co.code != "" %}<span class="code">{{ co.code }}</span>{% endif %}</h4>
+  {% if co.semester or co.language %}<p class="muted">{{ co.semester }}{% if co.semester and co.language %} · {% endif %}{{ co.language }}</p>{% endif %}
+  {% if co.description and co.description != "" %}<p class="desc">{{ co.description }}</p>{% endif %}
+</article>

@@ -1,0 +1,30 @@
+---
+title: Group
+permalink: /group/
+lead: My research group at the Department of Informatics and Telematics works on computer vision, deep learning and robotics. Its doctoral research focuses on foundation models for visual perception and computer vision applications.
+redirect_from:
+  - /doctoral-students/
+  - /vacancies/
+---
+{% assign g = site.data.group %}
+<h2>Doctoral students</h2>
+<div class="people-grid">
+  {% for s in g.phd %}
+  <article class="person">
+    {% if s.photo %}<img src="{{ s.photo | relative_url }}" alt="{{ s.name }}" loading="lazy">{% else %}<div class="avatar">{{ s.name | slice: 0 }}</div>{% endif %}
+    <h3>{% if s.url %}<a href="{{ s.url }}">{{ s.name }}</a>{% else %}{{ s.name }}{% endif %}</h3>
+    <p class="muted">{{ s.role }}</p>
+    {% if s.thesis and s.thesis != "" %}<p class="topic"><span class="pm-l">Thesis</span>{{ s.thesis }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</div>
+
+{% if g.msc.size > 0 %}
+<h2>MSc / MPhil students</h2>
+<ul class="plain-list">{% for s in g.msc %}<li><strong>{{ s.name }}</strong>{% if s.topic %} — {{ s.topic }}{% endif %}</li>{% endfor %}</ul>
+{% endif %}
+
+{% if g.alumni.size > 0 %}
+<h2>Alumni</h2>
+<ul class="plain-list">{% for s in g.alumni %}<li><strong>{{ s.name }}</strong>{% if s.topic %} — {{ s.topic }}{% endif %}</li>{% endfor %}</ul>
+{% endif %}

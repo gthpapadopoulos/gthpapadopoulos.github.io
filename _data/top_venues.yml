@@ -1,0 +1,5 @@
+# Venues highlighted with a small badge on publication entries (match = text found in the venue; workshops excluded).
+- { match: "NeurIPS", label: "NeurIPS" }
+- { match: "Transactions on Machine Learning Research", label: "TMLR" }
+- { match: "IEEE Transactions", label: "IEEE Trans." }
+- { match: "CVPR", label: "CVPR" }

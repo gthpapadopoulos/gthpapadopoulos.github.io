@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<article class="post">
+  <header class="page-head">
+    <p class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      <span class="tag tag-{{ page.type }}">{{ site.news_types[page.type].label | default: "News" }}</span>
+    </p>
+    <h1>{{ page.title }}</h1>
+  </header>
+  {% if page.image and page.image != "" %}
+  {% assign mode = site.data.thumbs[page.image] | default: "blur" %}
+  {% assign disp = page.image %}{% unless disp contains '.gif' or disp contains '.webp' %}{% assign disp = disp | replace: '.jpeg', '.webp' | replace: '.jpg', '.webp' | replace: '.png', '.webp' %}{% endunless %}
+  <figure class="post-hero fit-{{ mode }}">{% if mode != "fit" %}<img class="thumb-bg" src="{{ disp | relative_url }}" alt="" aria-hidden="true">{% endif %}<img class="hero-img" src="{{ disp | relative_url }}" alt="{{ page.title | escape }}"></figure>
+  {% endif %}
+  <div class="post-body">
+    {{ content }}
+  </div>
+  <nav class="post-nav">
+    {% if page.previous %}<a class="prev" href="{{ page.previous.url | relative_url }}">← {{ page.previous.title }}</a>{% else %}<span></span>{% endif %}
+    {% if page.next %}<a class="next" href="{{ page.next.url | relative_url }}">{{ page.next.title }} →</a>{% endif %}
+  </nav>
+  <p class="back"><a href="{{ '/news/' | relative_url }}">All news</a></p>
+</article>

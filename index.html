@@ -1,0 +1,63 @@
+---
+layout: default
+title: Home
+permalink: /
+---
+{% assign a = site.author %}
+<section class="hero">
+  <img class="hero-photo" src="{{ a.photo | relative_url }}" alt="Portrait of {{ a.name }}" width="220" height="265">
+  <div class="hero-text">
+    <h1>{{ a.name }}</h1>
+    <p class="hero-role">{{ a.position }}</p>
+    <p class="hero-area">Scientific area: {{ a.area }}</p>
+    <p class="hero-aff"><a href="{{ a.department_url }}">{{ a.department }}</a><br><a href="{{ a.university_url }}">{{ a.university }}</a></p>
+    <ul class="interests" aria-label="Research interests">{% for t in a.interests %}<li>{{ t }}</li>{% endfor %}</ul>
+    {% include social.html %}
+  </div>
+</section>
+
+<section class="home-section bio">
+  <h2>About</h2>
+  <p>I received the Diploma and Ph.D. degrees in electrical and computer engineering from the Aristotle University of Thessaloniki (AUTH), Thessaloniki, Greece. I have worked as a Post-doctoral Researcher at the Foundation For Research And Technology Hellas / Institute of Computer Science (FORTH/ICS) and the Centre for Research and Technology Hellas / Information Technologies Institute (CERTH/ITI).</p>
+  <p>My research focuses on the areas of computer vision, artificial intelligence and machine/deep learning, with emphasis on robotics and security applications. In particular, my current research interests include, among others, foundation models for robotics, disaster robotics, self-supervised and generative visual learning, 3D scene reconstruction, remote sensing image analysis, as well as trustworthy and secure AI.</p>
+  <p>I have over 20 years of experience in participating in EU-funded research projects in the areas of ICT, security and robotics. Currently, I am the Principal Investigator (PI) of the EU-funded projects <a href="https://salus-project.eu/">SALUS</a>, <a href="https://tornado-horizon.eu/">TORNADO</a> (Deputy Coordinator), <a href="https://triffid-project.eu/">TRIFFID</a> (Coordinator), <a href="https://armadillo-project.eu">ARMADILLO</a> and <a href="https://ganndalf-project.eu/">GANNDALF</a>.</p>
+</section>
+
+<section class="home-section">
+  <div class="section-head"><h2>Current projects</h2><a class="more" href="{{ '/projects/' | relative_url }}">All projects →</a></div>
+  <ul class="logo-strip">
+    {% assign ongoing = site.data.projects | where: "status", "ongoing" %}
+    {% for pr in ongoing %}
+    <li><a href="{% if pr.url %}{{ pr.url }}{% else %}{{ '/projects/' | relative_url }}{% endif %}" title="{{ pr.acronym }}: {{ pr.title }}">
+      {% if pr.logo %}<img src="{{ pr.logo | relative_url }}" alt="{{ pr.acronym }}" loading="lazy">{% else %}<span>{{ pr.acronym }}</span>{% endif %}
+      {% if pr.role == "Coordinator" %}<span class="role-badge">Coordinator</span>{% elsif pr.role contains "Deputy Coordinator" %}<span class="role-badge">Deputy coordinator</span>{% endif %}
+      <small>{{ pr.acronym }}<br>{{ pr.short | default: pr.title }}</small>
+    </a></li>
+    {% endfor %}
+  </ul>
+</section>
+
+<div class="home-grid">
+  <section class="home-section">
+    <div class="section-head"><h2>Latest news</h2><a class="more" href="{{ '/news/' | relative_url }}">All news →</a></div>
+    <ul class="news-mini">
+      {% for n in site.posts limit:4 %}
+      <li><a class="news-mini-card" href="{{ n.url | relative_url }}">
+        {% include thumb.html src=n.image %}
+        <div class="nm-body">
+          <p class="post-meta"><time datetime="{{ n.date | date_to_xmlschema }}">{{ n.date | date: "%b %-d, %Y" }}</time> <span class="tag tag-{{ n.type }}">{{ site.news_types[n.type].label | default: "News" }}</span></p>
+          <h3>{{ n.title }}</h3>
+          <p class="excerpt">{{ n.excerpt | strip_html | truncatewords: 24 }}</p>
+        </div>
+      </a></li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section class="home-section">
+    <div class="section-head"><h2>Selected publications</h2><a class="more" href="{{ '/publications/' | relative_url }}">All publications →</a></div>
+    <ul class="pub-list compact">
+      {% assign sel = site.data.publications | where: "selected", true %}
+      {% for p in sel %}{% include pub.html p=p %}{% endfor %}
+    </ul>
+  </section>
+</div>

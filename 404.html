@@ -1,0 +1,34 @@
+---
+title: Page not found
+permalink: /404.html
+sitemap: false
+---
+<div class="nf">
+  <svg class="nf-art" viewBox="0 0 240 180" role="img" aria-label="A camera lens searching for a missing page">
+    <rect x="18" y="38" width="150" height="104" rx="14" fill="var(--navy-soft)" stroke="var(--navy)" stroke-width="3"/>
+    <rect x="34" y="26" width="40" height="16" rx="5" fill="var(--navy)"/>
+    <circle cx="93" cy="90" r="38" fill="var(--surface)" stroke="var(--navy)" stroke-width="3"/>
+    <circle cx="93" cy="90" r="25" fill="none" stroke="var(--navy)" stroke-width="2" stroke-dasharray="6 6"/>
+    <text x="93" y="99" text-anchor="middle" font-family="Source Serif 4, Georgia, serif" font-size="26" font-weight="600" fill="var(--accent)">?</text>
+    <path d="M168 70 C 195 70, 205 52, 222 40" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-dasharray="4 6" stroke-linecap="round"/>
+    <rect x="188" y="92" width="38" height="48" rx="4" fill="var(--surface)" stroke="var(--muted)" stroke-width="2" stroke-dasharray="5 4"/>
+    <text x="207" y="122" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="600" fill="var(--muted)">404</text>
+  </svg>
+  <div>
+    <p class="lead">The page you are looking for does not exist or has moved. It may be one of the latest news items below.</p>
+    <p><a class="button" href="{{ '/' | relative_url }}">Go to the home page</a> &nbsp; <a class="button ghost" href="{{ '/news/' | relative_url }}">Browse the news</a></p>
+  </div>
+</div>
+<h2>Latest news</h2>
+<ul class="news-mini nf-news">
+  {% for n in site.posts limit:3 %}
+  <li><a class="news-mini-card" href="{{ n.url | relative_url }}">
+    {% include thumb.html src=n.image %}
+    <div class="nm-body">
+      <p class="post-meta"><time datetime="{{ n.date | date_to_xmlschema }}">{{ n.date | date: "%b %-d, %Y" }}</time> <span class="tag tag-{{ n.type }}">{{ site.news_types[n.type].label | default: "News" }}</span></p>
+      <h3>{{ n.title }}</h3>
+      <p class="excerpt">{{ n.excerpt | strip_html | truncatewords: 24 }}</p>
+    </div>
+  </a></li>
+  {% endfor %}
+</ul>
