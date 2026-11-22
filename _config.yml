@@ -36,6 +36,10 @@ author:
     - Trustworthy and secure AI
   cv: ""           # TODO: e.g. /assets/pdf/cv.pdf (shows a CV button when set)
 
+# Google Form of the "Collaborate with me" section (Contact page).
+# Paste the form link (…/viewform) here; leave "" to show an e-mail button instead.
+collaboration_form: ""
+
 # Name variants highlighted in author lists
 me_names:
   - "G. Th. Papadopoulos"

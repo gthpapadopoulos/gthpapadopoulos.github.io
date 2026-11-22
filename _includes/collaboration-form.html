@@ -1,0 +1,16 @@
+{%- comment -%}
+  "Collaborate with me" section (Contact page). The form itself is a Google Form;
+  set its link in _config.yml (collaboration_form). Until then an e-mail button is shown.
+{%- endcomment -%}
+{%- assign f = site.collaboration_form | strip -%}
+<h2 id="collaborate">Collaborate with me</h2>
+<p class="collab-intro">I welcome contacts for research collaborations, joint EU or national proposals, as well as theses, research positions, industry collaborations or invited talks. Please fill in the form below with your details and intentions, and I will reply by e-mail.</p>
+{%- if f != "" -%}
+{%- if f contains "?" -%}{%- assign embed = f | append: "&embedded=true" -%}{%- else -%}{%- assign embed = f | append: "?embedded=true" -%}{%- endif %}
+<div class="form-card">
+  <iframe title="Collaboration form" loading="lazy" src="{{ embed }}">Loading…</iframe>
+</div>
+<p class="collab-alt">If the form does not load, <a href="{{ f }}" target="_blank" rel="noopener">open it in a new tab</a> or write to <a href="mailto:{{ site.author.email }}">{{ site.author.email }}</a>.</p>
+{%- else %}
+<p><a class="button" href="mailto:{{ site.author.email }}?subject=Collaboration">E-mail me</a></p>
+{%- endif %}
