@@ -343,7 +343,6 @@ dl.contact dd { margin: 0; }
 .collab-cta .button:hover { transform: translateY(-1px); box-shadow: var(--shadow-hover); }
 .collab-cta .button span { display: inline-block; transition: transform .15s ease; }
 .collab-cta .button:hover span { transform: translateX(3px); }
-.privacy-note { font-size: .85rem; color: var(--muted); margin-top: 2.5rem; }
 
 /* ---------- footer ---------- */
 .site-footer { background: #1a2f4d; color: #c9d3e0; padding: 2rem 0; font-size: .86rem; margin-top: 2rem; }
