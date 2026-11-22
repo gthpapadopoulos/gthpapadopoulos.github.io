@@ -38,7 +38,7 @@ author:
 
 # Google Form of the "Collaborate with me" section (Contact page).
 # Paste the form link (…/viewform) here; leave "" to show an e-mail button instead.
-collaboration_form: ""
+collaboration_form: "https://docs.google.com/forms/d/e/1FAIpQLScAhI64XNlvj7HjjG8DPVug0F3uQhqXJjibgg7qULYF9_9wKA/viewform"
 
 # Name variants highlighted in author lists
 me_names:
