@@ -366,10 +366,6 @@ dl.contact dd { margin: 0; }
 .interests { list-style: none; padding: 0; margin: 0 0 .9rem; display: flex; flex-wrap: wrap; gap: .4rem; }
 .interests li { font-size: .8rem; font-weight: 500; color: var(--navy); background: var(--navy-soft); padding: .28rem .65rem; border-radius: 999px; }
 .logo-strip a { position: relative; }
-.role-badge {
-  font: 600 .62rem/1 var(--sans); letter-spacing: .06em; text-transform: uppercase; color: #fff; background: var(--accent);
-  padding: .26rem .45rem; border-radius: 3px; margin-top: -.1rem;
-}
 
 /* ---------- consistent card hover ---------- */
 .news-card, .news-mini-card, .logo-strip a, .card.project, .person, .course {

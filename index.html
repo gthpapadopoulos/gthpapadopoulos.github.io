@@ -30,7 +30,6 @@ permalink: /
     {% for pr in ongoing %}
     <li><a href="{% if pr.url %}{{ pr.url }}{% else %}{{ '/projects/' | relative_url }}{% endif %}" title="{{ pr.acronym }}: {{ pr.title }}">
       {% if pr.logo %}<img src="{{ pr.logo | relative_url }}" alt="{{ pr.acronym }}" loading="lazy">{% else %}<span>{{ pr.acronym }}</span>{% endif %}
-      {% if pr.role == "Coordinator" %}<span class="role-badge">Coordinator</span>{% elsif pr.role contains "Deputy Coordinator" %}<span class="role-badge">Deputy coordinator</span>{% endif %}
       <small>{{ pr.acronym }}<br>{{ pr.short | default: pr.title }}</small>
     </a></li>
     {% endfor %}
