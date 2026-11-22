@@ -40,6 +40,10 @@ author:
 # Paste the form link (…/viewform) here; leave "" to show an e-mail button instead.
 collaboration_form: "https://docs.google.com/forms/d/e/1FAIpQLScAhI64XNlvj7HjjG8DPVug0F3uQhqXJjibgg7qULYF9_9wKA/viewform"
 
+# Visitor statistics (GoatCounter, cookie-free): dashboard at https://<code>.goatcounter.com
+# Leave "" to switch counting off. Counts only on the live site (GitHub Pages builds in production mode).
+goatcounter: "gthpapadopoulos"
+
 # Name variants highlighted in author lists
 me_names:
   - "G. Th. Papadopoulos"
