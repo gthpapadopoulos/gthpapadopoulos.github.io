@@ -34,11 +34,11 @@ Text of the news item (Markdown). Images: ![caption](/assets/img/news/2026/photo
 Add an entry to `_data/publications.yml` (copy an existing one). Set `selected: true` to show it on the home page.
 
 ## Publish on GitHub Pages
-1. Create a public repository named **`<username>.github.io`** on GitHub.
+1. Create a public repository named **`gthpapadopoulos.github.io`** on GitHub.
 2. Upload the contents of this folder (or `git init`, `git add .`, `git commit`, `git push`).
 3. In the repository: **Settings → Pages → Build and deployment → Deploy from a branch**, branch `main`, folder `/ (root)`.
-4. Set `url:` in `_config.yml` to `https://<username>.github.io`.
-5. The site appears at `https://<username>.github.io` within a minute or two.
+4. `url:` in `_config.yml` is `https://gthpapadopoulos.github.io`.
+5. The site appears at `https://gthpapadopoulos.github.io` within a minute or two.
 
 ## Preview locally (optional)
 Requires Ruby. In this folder: `bundle install` once, then `bundle exec jekyll serve` and open http://localhost:4000.
@@ -47,9 +47,9 @@ Requires Ruby. In this folder: `bundle install` once, then `bundle exec jekyll s
 Pages keep the old paths (`/publications/`, `/projects/`, `/news/`, each news item's `/<slug>/`), and old paths that changed
 (`/doctoral-students/` → `/group/`, `/courses/` → `/teaching/`) redirect automatically. On the WordPress site, a single
 301 rule sends everything to the new address, e.g. with the *Redirection* plugin (source `^/(.*)` regex → target
-`https://<username>.github.io/$1`) or in `.htaccess`:
+`https://gthpapadopoulos.github.io/$1`) or in `.htaccess`:
 
 ```apache
 RewriteEngine On
-RewriteRule ^(.*)$ https://<username>.github.io/$1 [R=301,L]
+RewriteRule ^(.*)$ https://gthpapadopoulos.github.io/$1 [R=301,L]
 ```
